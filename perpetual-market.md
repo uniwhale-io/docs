@@ -16,9 +16,9 @@ Keepers constantly monitor the positions to ensure positions eligible for liquid
 
 If the position is liquidated and the user closes out the position, the settlement amount is determined based on the matched prices and is transferred by the Exchange to the user.
 
-## Zero fee to post orders
+## Zero Fee to post orders
 
-uniwhale.io, at its core, is about signed off-chain messages settled on-chain, which allows CeFi-like orderbook experience for both traders and market makers.
+uniwhale.io, at its core, is about signed off-chain messages settled on-chain, which allows the CeFi-like orderbook experience for both traders and market makers.
 
 Built as a classic central limit order book, signed orders are queued and matched for on-chain settlement.
 
@@ -28,6 +28,6 @@ The speed and latency of the order maching engine is also not constrained by the
 
 ## Lightning quick on-chain settlement
 
-The orders matched by the order matching engine are sent to the Exchange on-chain contract, which validates these orders and settle them on-chain.
+The orders matched by the order matching engine are sent to the Exchange on-chain contract, which validates these orders and settles them on-chain.
 
-By building on Sui, which boasts horizontally scalable, instant, finality with low fee, the settlement of trades are cost-efficient and quick.
+By building on Sui, which boasts horizontally scalable, instant, finality with low fees, the settlement of trades is cost-efficient and quick.

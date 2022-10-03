@@ -1,6 +1,6 @@
 # Table of contents
 
-* [uniwhale.io](README.md)
+* [Uniwhale.io](README.md)
 * [Perpetual Market](perpetual-market.md)
 * [Wallet Control](wallet-control.md)
 * [Liquidity Pool](liquidity-pool.md)
