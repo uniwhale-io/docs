@@ -8,19 +8,19 @@ Liquidity Pool thus provides a convenient way for many to earn trading fees by p
 
 ### Mint / Burn of Liquidity Pool token
 
-The Liquidity Pool consists of a basket of assets used for trading. Liquidity Pool token can be minted using any asset in the basket and burnt to redeem any of the assets. The price at which the Liquidity Pool token is minted or burnt is determined based on the total market value of the Liquidity Pool divided by the outstanding supply of the token.
+The Liquidity Pool consists of a basket of assets used for trading. Liquidity Pool tokens can be minted using any asset in the basket and burnt to redeem any of the assets. The price at which the Liquidity Pool token is minted or burnt is determined based on the total market value of the Liquidity Pool divided by the outstanding supply of the token.
 
 ## Zero price impact trading
 
-The design of the Liquidity Pool allows that liquidity is provided at a fixed / pre-determined fee, with zero slippage, benefitting both traders and liquidity providers.
+The design of the Liquidity Pool allows liquidity provided at a fixed / pre-determined fee, with zero slippage, benefitting both traders and liquidity providers.
 
 Liquidity Pool uses Price Oracle to determine its mid-price and apply a fixed fee based on a pre-determined rule to create its bid and ask, which are then used to fill the market limit orders on the orderbook.
 
 ### Oracle-based mid-price calculation
 
-Liquidity Protocol uses Red Stone Price Oracle, which provides fast and cost-efficient price oracles for on-chain contracts.
+Liquidity Protocol uses Oracle, which provides fast and cost-efficient prices for on-chain contracts.
 
-Keepers constantly refreshes the oracle prices and update the Liquidity Pool.
+Keepers constantly refresh the oracle prices and update the Liquidity Pool.
 
 Liquidity Pool uses the trailing average and percentile of the oracle prices to determine its mid-price.
 
@@ -32,8 +32,8 @@ The fee is adjusted based on the prevailing weight to ensure Liquidity Pool hold
 
 ### Market Limit Order
 
-Market limit orders are filled by Keepers when the Oracle Price reaches the limit price.
+Market limit orders are filled by Keepers when the matching price reaches the limit price.
 
 ### Market Order
 
-Market orders are filled by Keepers at the Oracle Price.
+Market orders are filled by Keepers at the best price offered by the Uniwhale match engine.
