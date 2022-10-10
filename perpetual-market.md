@@ -24,9 +24,9 @@ Built as a classic central limit order book, signed orders are queued and matche
 
 Because these orders are created and signed off-chain, they require no gas fee.
 
-The speed and latency of the order maching engine is also not constrained by the settlement blockchain, allowing horizontal scalability.
+The speed and latency of the order-matching engine are also not constrained by the settlement blockchain, allowing horizontal scalability.
 
-## Lightning quick on-chain settlement
+## Lightning-quick on-chain settlement
 
 The orders matched by the order matching engine are sent to the Exchange on-chain contract, which validates these orders and settles them on-chain.
 
