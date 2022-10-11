@@ -1,10 +1,10 @@
-# Key Features
+# Best Execution
 
 ## Trade up to 100X
 
 We offer perpetual futures with up to 100X leverage on a number of pairs including BTC-USD and ETH-USD.
 
-All positions are margined in USD. Only isolated margining is currently offered with a plan to offer portfolio margining in the future.
+All positions are margined in USD. Both isolated margining and portfolio margining will be supported.
 
 Initiating positions will transfer the required margin to Exchange on-chain contract, which acts as the central counterparty and clearing house to all positions.
 
@@ -30,4 +30,4 @@ The speed and latency of the order-matching engine are also not constrained by t
 
 The orders matched by the order matching engine are sent to the Exchange on-chain contract, which validates these orders and settles them on-chain.
 
-By building on Sui, which boasts horizontally scalable, instant, finality with low fees, the settlement of trades is cost-efficient and quick.
+By building on Sui, which boasts horizontally scalable, instant, finality with low fees, the settlement of trades is cost-efficient and lightening quick.
