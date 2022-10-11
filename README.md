@@ -5,21 +5,21 @@ coverY: 0
 
 # Overview
 
-## Zero Price Impact
+### Zero Price Impact
 
 Trade at a low transaction fee, with zero slippage.
 
-## Zero Fee to Post Orders
+### Zero Fee to Post Orders
 
-Posting buy/sell orders is gas free. Pay only when your orders are confirmed.
+Posting orders is gas free. Pay only when your orders are confirmed.
 
-## Zero Credit Risk
+### Zero Credit Risk
 
-You have the full ownership and control of the assets.
+You have full ownership and control of the assets.
 
-## Hassle-Free Liquidity Provision
+### Hassle-Free Liquidity Provision
 
-Simple and stratightforward liquidity provision to earn passive market making yield.
+Simple and straitghtforward liquidity provision to earn passive market-making yield.
 
 ## Architectural Overview
 
