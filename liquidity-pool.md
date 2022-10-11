@@ -2,9 +2,9 @@
 
 ## Provide the liquidity the way you want it and earn
 
-At uniwhale.io, market makers can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling their assets into Liquidity Pool.
+You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.
 
-Liquidity Pool thus provides a convenient way for many to earn trading fees by providing liquidity.
+Liquidity Pool thus provides a convenient way to earn trading fees by providing liquidity.
 
 ### Mint / Burn of Liquidity Pool token
 

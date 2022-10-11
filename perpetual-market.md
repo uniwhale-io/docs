@@ -2,7 +2,7 @@
 
 ## Trade up to \[100]x
 
-uniwhale.io offers perpetual futures with up to \[100]x leverage on a number of pairs including BTC-USD and ETH-USD.
+We offer perpetual futures with up to \[100]x leverage on a number of pairs including BTC-USD and ETH-USD.
 
 All positions are margined in USD. Only isolated margining is currently offered with a plan to offer portfolio margining in the future.
 
@@ -14,11 +14,11 @@ Outstanding positions are subject to liquidation which may be triggered if the r
 
 Keepers constantly monitor the positions to ensure positions eligible for liquidation are liquidated at the earliest chance, to protect the users and the platform.
 
-If the position is liquidated and the user closes out the position, the settlement amount is determined based on the matched prices and is transferred by the Exchange to the user.
+If the position is liquidated and you close out the position, the settlement amount is determined based on the matched prices and is transferred by the Exchange to you.
 
 ## Zero Fee to post orders
 
-uniwhale.io, at its core, is about signed off-chain messages settled on-chain, which allows the CeFi-like orderbook experience for both traders and market makers.
+We, at the core, are about signed off-chain messages settled on-chain, which allows the CeFi-like orderbook experience for both traders and market makers.
 
 Built as a classic central limit order book, signed orders are queued and matched for on-chain settlement.
 
