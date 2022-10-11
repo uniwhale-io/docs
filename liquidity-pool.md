@@ -26,7 +26,7 @@ Liquidity Pool uses Price Oracle to determine its mid-price and apply a fixed fe
 
 #### Oracle-based mid-price calculation
 
-Liquidity Protocol uses Oracle, which provides fast and cost-efficient prices for on-chain contracts.
+Liquidity Pool uses Oracle, which provides fast and cost-efficient prices for on-chain contracts.
 
 Keepers constantly refresh the oracle prices and update the Liquidity Pool.
 
