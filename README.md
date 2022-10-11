@@ -5,7 +5,7 @@ coverY: 0
 
 # Overview
 
-## Architectural Overview
+## Architectural Sneak Peak
 
 <figure><img src=".gitbook/assets/uniwhale_system_intro_chart.png" alt=""><figcaption></figcaption></figure>
 
