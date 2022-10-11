@@ -1,8 +1,8 @@
-# Perpetual Market
+# Key Features
 
-## Trade up to \[100]x
+## Trade up to 100X
 
-We offer perpetual futures with up to \[100]x leverage on a number of pairs including BTC-USD and ETH-USD.
+We offer perpetual futures with up to 100X leverage on a number of pairs including BTC-USD and ETH-USD.
 
 All positions are margined in USD. Only isolated margining is currently offered with a plan to offer portfolio margining in the future.
 
