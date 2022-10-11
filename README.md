@@ -5,6 +5,10 @@ coverY: 0
 
 # Overview
 
+## Architectural Overview
+
+<figure><img src=".gitbook/assets/uniwhale_system_intro_chart.png" alt=""><figcaption></figcaption></figure>
+
 ### Zero Price Impact
 
 Trade at a low transaction fee, with zero slippage.
@@ -19,8 +23,4 @@ You have full ownership and control of the assets.
 
 ### Hassle-Free Liquidity Provision
 
-Simple and straitghtforward liquidity provision to earn passive market-making yield.
-
-## Architectural Overview
-
-<figure><img src=".gitbook/assets/uniwhale_system_intro_chart.png" alt=""><figcaption></figcaption></figure>
+Simple and straightforward liquidity provision to earn passive market-making yield.
