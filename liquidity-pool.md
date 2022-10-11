@@ -1,12 +1,12 @@
 # Liquidity Pool
 
-## Access to multi**ply liquidity sources**&#x20;
+## Access to multi**ple liquidity sources**&#x20;
 
-Multi-different liquidity pools to ensure deep liquidity and best price offering
+Multi-different liquidity pools to ensure deep liquidity and the best price offering
 
 * Oracle-based liquidity pool to enable zero slippage&#x20;
 * Institutional Market Maker pool to provide deep liquidity
-* vAMM pool to ensure transactions of long tail assets
+* vAMM pool to ensure transactions of long-tail assets
 
 ## Provide liquidity the way you want it and earn
 
