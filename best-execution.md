@@ -1,10 +1,10 @@
 # Best Execution
 
-## Trade up to 100X
+## Trade up to 200X
 
-We offer perpetual futures with up to 100X leverage on a number of pairs including BTC-USD and ETH-USD.
+We offer perpetual futures with up to 200X leverage on a number of pairs including BTC-USD and ETH-USD.
 
-All positions are margined in USD. Both isolated margining and portfolio margining will be supported.
+All positions are margined in USD. Both <mark style="color:red;">**Isolated Margining**</mark> and <mark style="color:red;">**Portfolio Margining**</mark> will be supported.
 
 Initiating positions will transfer the required margin to Exchange on-chain contract, which acts as the central counterparty and clearing house to all positions.
 
@@ -16,18 +16,18 @@ Keepers constantly monitor the positions to ensure positions eligible for liquid
 
 If the position is liquidated and you close out the position, the settlement amount is determined based on the matched prices and is transferred by the Exchange to you.
 
-## Zero Fee to post orders
+## Best Price Oracles
 
-We, at the core, are about signed off-chain messages settled on-chain, which allows the CeFi-like orderbook experience for both traders and market makers.
+<mark style="color:green;">We, at the core, are about signed off-chain messages settled on-chain, which allows the CeFi-like orderbook experience for both traders and market makers.</mark>
 
-Built as a classic central limit order book, signed orders are queued and matched for on-chain settlement.
+<mark style="color:green;">Built as a classic central limit order book, signed orders are queued and matched for on-chain settlement.</mark>
 
-Because these orders are created and signed off-chain, they require no gas fee.
+<mark style="color:green;">Because these orders are created and signed off-chain, they require no gas fee.</mark>
 
-The speed and latency of the order-matching engine are also not constrained by the settlement blockchain, allowing horizontal scalability.
+<mark style="color:green;">The speed and latency of the order-matching engine are also not constrained by the settlement blockchain, allowing horizontal scalability.</mark>
 
 ## Lightning-quick on-chain settlement
 
 The orders matched by the order matching engine are sent to the Exchange on-chain contract, which validates these orders and settles them on-chain.
 
-By building on Sui, which boasts horizontally scalable, instant, finality with low fees, the settlement of trades is cost-efficient and lightening quick.
+By building on EVM, which boasts horizontally scalable, instant, finality with low fees, the settlement of trades is cost-efficient and lightning-quick.

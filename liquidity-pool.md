@@ -1,18 +1,17 @@
 # Liquidity Pool
 
-## Access to multi**ple liquidity sources**&#x20;
+## Access to **the democracy of orderbook liquidity**&#x20;
 
-Multi-different liquidity pools to ensure deep liquidity and the best price offering
+<mark style="color:green;">Uniwhale allows users to provide liquidity by using multi-stable coins(USDC/USDT/DAI). The accurate price oracle and single-sided liquidity make sure liquidity providers get away from unnecessary impermanent loss.</mark>
 
-* Oracle-based liquidity pool to enable zero slippage&#x20;
-* Institutional Market Maker pool to provide deep liquidity
-* vAMM pool to ensure transactions of long-tail assets
+* <mark style="color:green;">Oracle-based liquidity pool to enable zero slippage</mark>&#x20;
+* <mark style="color:green;">Single-sided liquidity enables 0 impermanent loss.</mark>
 
 ## Provide liquidity the way you want it and earn
 
-You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.
+<mark style="color:green;">You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.</mark>
 
-Liquidity Pool thus provides a convenient way to earn passive real yield (trading fees) by providing liquidity
+Uniwhale Liquidity Pool thus provides a convenient way to earn <mark style="color:red;">**Passive Real Yield**</mark> (trading fees) by providing liquidity
 
 #### Oracle-based Liquidity Pool&#x20;
 
@@ -34,9 +33,9 @@ Liquidity Pool uses the trailing average and percentile of the oracle prices to 
 
 #### Dynamic fee calculation
 
-When a particular asset is in heavy demand, its weight within the Liquidity Pool may decrease, and, vice versa.
+<mark style="color:green;">When a particular asset is in heavy demand, its weight within the Liquidity Pool may decrease, and, vice versa.</mark>
 
-The fee is adjusted based on the prevailing weight to ensure Liquidity Pool holds a balanced basket of assets
+<mark style="color:green;">The fee is adjusted based on the prevailing weight to ensure Liquidity Pool holds a balanced basket of assets</mark>
 
 #### Market Limit Order
 

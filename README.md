@@ -5,17 +5,17 @@ coverY: 0
 
 # Overview
 
-## Architectural Overview
+## Architectural Sneak Peak
 
-<figure><img src=".gitbook/assets/uniwhale_system_intro_chart.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/uniwhale_system_intro_chart (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Zero Price Impact
 
 Trade at a low transaction fee, with zero slippage.
 
-### Zero Fee to Post Orders
+### <mark style="color:green;">Accurate Oracle Aggregated Price</mark>
 
-Posting orders is gas free. Pay only when your orders are confirmed.
+
 
 ### Zero Credit Risk
 
