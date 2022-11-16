@@ -7,7 +7,7 @@ coverY: 0
 
 ## Architectural Sneak Peak
 
-<figure><img src=".gitbook/assets/uniwhale_system_intro_chart (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/uniwhale_system_intro_chart (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Zero Price Impact
 

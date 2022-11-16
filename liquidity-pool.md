@@ -7,7 +7,7 @@
 * <mark style="color:green;">Oracle-based liquidity pool to enable zero slippage</mark>&#x20;
 * <mark style="color:green;">Single-sided liquidity enables 0 impermanent loss.</mark>
 
-## Provide liquidity the way you want it and earn
+## Provide liquidity the way you want it and #EARN PASSIVE YIELD(risk-neutral)
 
 <mark style="color:green;">You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.</mark>
 
@@ -17,19 +17,13 @@ Uniwhale Liquidity Pool thus provides a convenient way to earn <mark style="colo
 
 The Oracle-based Liquidity Pool consists of a basket of mainstream assets used for trading. Liquidity Pool tokens can be minted using any asset in the basket and burnt to redeem any of the assets. The price at which the Liquidity Pool token is minted or burnt is determined based on the total market value of the Liquidity Pool divided by the outstanding supply of the token.
 
-## Zero price impact trading
+## How to provide stable coin liquidity
 
 The design of the Oracle-based Liquidity Pool allows liquidity provided at a fixed / pre-determined fee, with zero slippage, benefitting both traders and liquidity providers.
 
 Liquidity Pool uses Price Oracle to determine its mid-price and apply a fixed fee based on a pre-determined rule to create its bid and ask, which are then used to fill the market limit orders on the orderbook.
 
-#### Oracle-based mid-price calculation
-
-Liquidity Pool uses Oracle, which provides fast and cost-efficient prices for on-chain contracts.
-
-Keepers constantly refresh the oracle prices and update the Liquidity Pool.
-
-Liquidity Pool uses the trailing average and percentile of the oracle prices to determine its mid-price.
+####
 
 #### Dynamic fee calculation
 

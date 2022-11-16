@@ -2,8 +2,15 @@
 
 ## Roadmaps (TBA)
 
-## Media Announcements
+OATs Campaign
 
-Twitter: [https://twitter.com/UniwhaleEx](https://twitter.com/UniwhaleEx)
+Testnet Launch Time
 
-Medium: [https://uniwhale.medium.com](https://uniwhale.medium.com/)
+TGE
+
+Mainnet Launch
+
+NFT whitelist
+
+Airdrop
+
