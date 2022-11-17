@@ -2,7 +2,7 @@
 
 ## Trade up to 200X
 
-We offer perpetual futures with up to 200X leverage on a number of pairs including BTC-USD and ETH-USD.
+We offer perpetual futures with up to 200X leverage on BTC, ETH, and more mainstream crypto assets directly from your wallet.
 
 All positions are margined in USD. Both <mark style="color:red;">**Isolated Margining**</mark> and <mark style="color:red;">**Portfolio Margining**</mark> will be supported.
 
