@@ -7,6 +7,7 @@
   * [Our Vision](overview/our-vision.md)
 * [Best Execution](best-execution.md)
 * [Tokenomics](tokenomics.md)
+* [Unique Oracle Design](unique-oracle-design.md)
 * [Liquidity Pool](liquidity-pool.md)
 * [Wallet Control](wallet-control.md)
 * [Roadmap](roadmap.md)

@@ -1,26 +1,26 @@
 ---
+description: >-
+  Uniwhale is a decentralized perpetual exchange that supports up to 200x
+  leverage trading on BTC, ETH, and more mainstream crypto assets directly from
+  your wallet.
 cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400.png
 coverY: 0
 ---
 
 # Overview
 
-## Architectural Sneak Peak
-
-<figure><img src=".gitbook/assets/uniwhale_system_intro_chart (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 ### Zero Price Impact
 
 Trade at a low transaction fee, with zero slippage.
 
-### <mark style="color:green;">Accurate Oracle Aggregated Price</mark>
+### Lower Risk of Liquidation
 
-
+Aggregate multiple Oracles to protect you from harmful candle wicks.
 
 ### Zero Credit Risk
 
-You have full ownership and control of the assets.
+Full ownership and control of your assets with zero counterparty risk.
 
-### Hassle-Free Liquidity Provision
+### Real-Yield Earning
 
-Simple and straightforward liquidity provision to earn passive market-making yield.
+Providing stablecoin liquidity to Uniwhale is hassle-free and impermanent-loss free. Everyone is encouraged to be a liquidity provider and earn passive market making yield.
