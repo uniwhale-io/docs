@@ -13,7 +13,7 @@ Trade at a low transaction fee, with zero slippage.
 
 <mark style="color:green;">Uniwhale provides high-leverage perpetual trading up to 200x leverage.</mark>&#x20;
 
-Aggregate multiple Oracles to protect you from harmful candle wicks.
+The unique oracle design aggregates multiple oracle sources to protect traders from harmful candle wicks.
 
 You have full ownership and control of the assets.
 

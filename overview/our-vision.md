@@ -14,7 +14,7 @@ The uniwhale developing team will be devoted to contribute and bring the initial
 
 ### Best User Experience
 
-High slippage, high impermanent loss, complicated UX, inflated farming yield - we spotted many issues still existing in current DeFi protocols and many people are working on solving those. We are a group of developers and web 3 builders, we can't promise we will solve all above, but we are trying to crack one and one more.&#x20;
+High slippage, high impermanent loss, complicated UX, inflated farming yield - we spotted many issues still existing in current DeFi protocols and many people are working on solving those. We are a group of developers and web 3 builders, we can't promise we will solve all above, but we are trying to crack one by one.&#x20;
 
 We aim to bring the best trading experience to traders, and the most straightforward liquidity provision to LPs, to earn marketing making fees like institutions, but without inflated token price fluctuation. &#x20;
 

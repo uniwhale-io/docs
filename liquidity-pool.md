@@ -11,7 +11,7 @@
 
 <mark style="color:green;">You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.</mark>
 
-Uniwhale Liquidity Pool thus provides a convenient way to earn <mark style="color:red;">**Passive Real Yield**</mark> (trading fees) by providing liquidity
+Uniwhale Liquidity Pool thus provides a convenient way to earn <mark style="color:red;">**Passive Real Yield**</mark> (trading fees) from market making and leverage trading.
 
 #### Oracle-based Liquidity Pool&#x20;
 
