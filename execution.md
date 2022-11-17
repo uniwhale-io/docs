@@ -12,13 +12,13 @@ We do not custody your assets. Your assets stay with you and the margin posted a
 
 All positions are margined in USDC. Both isolated and portfolio margining will be supported.&#x20;
 
-You can add margins to ourstanding positions, but cannot withdraw partially posted margin. When margins are added to an outstanding position, the relevant liquidation price is adjusted.
+You can add margins to ourstanding positions, but cannot partially withdraw posted margin. When margins are added to an outstanding position, the relevant liquidation price is adjusted.
 
 Multiple stablecoins are accepted as eligible margins. These will be swapped automatically to USDC.
 
 ## Order type supported
 
-At uniwhale, you can trade either Market Order or Market Limit Order. Both order types can also have either Stop Loss, Profit Target or both.
+You can trade either Market Order or Market Limit Order. Both order types can also have either Stop Loss, Profit Target or both.
 
 ### Market Order
 
@@ -36,11 +36,31 @@ Stop Loss price can be added to Market Order or Market Limit Order, which will t
 
 Profit Target price can be added to Market Order or Market Limit Order, which will trigger an automatic close of the position if the condition is satisfied.
 
-## Initiating a position
+## Fee and Market Impact
 
-Initiating a position will transfer the required margin to a dedicated on-chain contract, whose sole purpose is to hold trader margins.
+Prices offered by the [Liquidity Pool](liquidity-pool.md) embed two types of transaction costs - Fee and Market Impact.
 
-Liquidity Pool which acts as the central counterparty and clearinghouse to all positions.
+**Long/Short Open Price** = Oracle Price x (1 +/- Fee +/- Market Impact)
+
+**Long/Short Close Price** = Oracle Price x (1 -/+ Fee -/+ Market Impact)
+
+### Fee
+
+Fee is \[.  ]%.
+
+### Market Impact
+
+Market Impact is calculated dynamically as a function of outstanding positions on the platform and the position size. It is a determinstic charge simulating the impact a new position would have on the market.
+
+Market Impact (%) = (long/short outstanding positions on the platform + Position size / 2) / 1% depth above/below
+
+"1% depth above/below" is $\[.  ].
+
+## Opening a position
+
+Opening a position will transfer the required margin to a dedicated on-chain contract, whose sole purpose is to hold trader margins.
+
+[Liquidity Pool](liquidity-pool.md) which acts as the central counterparty and clearinghouse to all positions.
 
 The initial margin is calculated based on the matched prices ("Mark Price").
 
