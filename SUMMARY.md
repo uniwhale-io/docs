@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Tokenomics](tokenomics.md)
+* [Our Vision](overview/our-vision.md)
 * [Unique Oracle Design](unique-oracle-design.md)
 * [Liquidity Pool](liquidity-pool.md)
+* [Tokenomics](tokenomics.md)
 * [Roadmap](roadmap.md)
 * [Social Media](social-media.md)
-* [Our Vision](overview/our-vision.md)
-* [Best Execution](best-execution.md)
+* [--------](undefined.md)
 * [Wallet Control](wallet-control.md)
 * [Overview](overview.md)
