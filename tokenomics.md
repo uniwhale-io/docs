@@ -12,35 +12,17 @@ No presale, no VC funding, that means there is no risk of a rug pull event occur
 
 ### Platform Revenue Source
 
-Platform revenue will mainly be generated from various transaction fees, including open position, close position, funding fees, liquidation fees and etc. All transaction fees will be paid in stablecoins, which reduce the platform from token price mark-to-market risk. &#x20;
+Platform revenue mainly consists of transaction fees. All transaction fees are paid in stablecoins, which protects the platform from the mark-to-market risk.
 
 ### Platform Revenue Distribution via Governance
 
-To maintain deep liquidity and encourage long term hodling, bringing the platform revenue to be shared between LPs and Stakers are essential and shall be decided via governance vote.&#x20;
-
-In addition, which stablecoins can be used as margin on Uniwhale platform will also be decided via governance vote.&#x20;
-
-### Project Valuation and Peer Comps
-
-We view ourselves as the next generation of DeFi orderbook. Comparing to dydx, GMX, Perpetual's models, we try to solve more (details in medium link). Use June 2022 data (before Arbitrum boost up) makes a more reasonable, comparable model.
-
-&#x20;          Market Cap, FDV
-
-DyDx = 157mio, 1.2bn
-
-Perp = 40mio, 85mio
-
-GMX = 350mio, 576mio
-
-Injective = 116mio, 160mio
-
-Uniwhale = \[20] mio FDV to start with&#x20;
+Platform revenue will be shared among the platform users, the exact implementation of which is subject to the community vote. This helps the platform maintain deep liquidity and encourages long-term holding.
 
 ### veCurve + esGMX = Uniwhale
 
-Similar to how the Curve protocol’s governance vote elected to distribute protocol revenues to CRV token holders, and distribute rewards to different stablecoin pair pools to direct liquidity, the team shall propose the similar measure.&#x20;
+Our tokenomics builds on how the Curve protocol’s governance vote elected to distribute protocol revenues to CRV token holders and distribute rewards to different stablecoin pair pools to direct liquidity.
 
-Inspired from GMX’s tokenomics where escrowed emissions are successfully used. In essence, rather than paying rewards to stakers and liquidity providers in liquid, transferable governance tokens, emissions will be paid in escrowed token forms, to encourage long term holding.&#x20;
+We also borrow from the successful escrowed emission model from GMX, where, instead of emissions being a liquid, transferable, governance token, escrowed, non-transferrable, token is used.&#x20;
 
 ### Floor Price Fund (Buyback and burn)
 
