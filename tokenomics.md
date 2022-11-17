@@ -8,7 +8,7 @@ description: (More details to be released...)
 
 A fair launch is a type of crowdfunding in the crypto space, where the project sells tokens to every participant fairly. A fair launch allows for equitable and fair distribution of tokens. The tokens are fully available to everyone for purchase at the same price.
 
-No presale, no VC funding, that means there is no risk of a rug pull event occurring or community being used as exit liquidity. Tokens will be distributed through fair launch for community to participate in and encourage community members continuously contributing and hodling.&#x20;
+No presale, no VC funding, that means there is no risk of a rug pull event occurring or community being used as exit liquidity. Tokens will be distributed through fair launch for community to participate in and encourage community members continuously contributing and holding.&#x20;
 
 ### Platform Revenue Source
 
@@ -23,12 +23,6 @@ Platform revenue will be shared among the platform users, the exact implementati
 Our tokenomics builds on how the Curve protocol’s governance vote elected to distribute protocol revenues to CRV token holders and distribute rewards to different stablecoin pair pools to direct liquidity.
 
 We also borrow from the successful escrowed emission model from GMX, where, instead of emissions being a liquid, transferable, governance token, escrowed, non-transferrable, token is used.&#x20;
-
-### Floor Price Fund (Buyback and burn)
-
-The floor price fund will grow in \[2] ways：
-
-And the floor price fund will be used to 1) and 2)&#x20;
 
 ### Referral and NFTs
 

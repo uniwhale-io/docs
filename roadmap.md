@@ -1,7 +1,5 @@
 # Roadmap
 
-## Roadmaps (TBA)
-
 OATs Campaign
 
 Testnet Launch Time
