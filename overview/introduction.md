@@ -10,4 +10,4 @@
 * <mark style="color:green;">Oracle-based price feeding enables zero slippage</mark>&#x20;
 * <mark style="color:green;">Single-sided stablecoin liquidity enables zero impermanent loss</mark>
 
-####
+<figure><img src="../.gitbook/assets/uniwhale_system_intro_chart (1).png" alt=""><figcaption></figcaption></figure>
