@@ -16,7 +16,7 @@ coverY: 0
 * <mark style="color:green;">Single-sided stablecoin liquidity means zero impermanent loss.</mark>
 * <mark style="color:green;">Decentralized on-chain trading experience means zero credit risk.</mark>
 
-### Uniwhale infrastructure is fully decentralised
+## Uniwhale infrastructure is fully decentralised
 
 * We provide fully decentralized web links. You can run locally if you like.
 * Connect through [https://uniwhale.co](https://uniwhale.co) for speed and convenience.
