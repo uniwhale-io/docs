@@ -2,7 +2,6 @@
 
 * [Overview](README.md)
   * [Introduction](overview/introduction.md)
-  * [Product Architecture](overview/product-architecture.md)
   * [Infrastructure Highlight](overview/infrastructure-highlight.md)
   * [Our Vision](overview/our-vision.md)
 * [Best Execution](best-execution.md)
