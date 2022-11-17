@@ -1,4 +1,4 @@
-# Best Execution
+# Trading
 
 ## Trade up to 200X
 
@@ -26,8 +26,16 @@ If the position is liquidated and you close out the position, the settlement amo
 
 <mark style="color:green;">The speed and latency of the order-matching engine are also not constrained by the settlement blockchain, allowing horizontal scalability.</mark>
 
-## Lightning-quick on-chain settlement
+## Keep your assets safe
 
 The orders matched by the order matching engine are sent to the Exchange on-chain contract, which validates these orders and settles them on-chain.
 
 By building on EVM, which boasts horizontally scalable, instant, finality with low fees, the settlement of trades is cost-efficient and lightning-quick.
+
+&#x20;Market Limit Order
+
+Market limit orders are filled by Keepers when the matching price reaches the limit price.
+
+#### Market Order
+
+Market orders are filled by Keepers at the best price offered by the Liquidity Pool.

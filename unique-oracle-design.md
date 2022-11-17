@@ -1,6 +1,6 @@
 # Unique Oracle Design
 
-### Oracle-based mid-price calculation&#x20;
+### Fast and accurate prices for on-chain contracts&#x20;
 
-Uniwhale uses aggregated oracle to determine trading prices, which provides fast and accurate prices for on-chain contracts. Keepers constantly refresh the or
+Uniwhale is building an oracle aggregator based on multiple service providers to determine trading prices, which provides fast and accurate prices for on-chain contracts.
 

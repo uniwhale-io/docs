@@ -2,21 +2,21 @@
 
 ### In Code We Trust
 
-Back to where it started: Satoshi created the vision and practical path of a trustless solution - Bitcoin. Code never lies, and saves us from trusting a 3rd centralized party. &#x20;
+Back to where it started: Satoshi created the vision and practical path of a trustless solution - Bitcoin. Code never lies, and saves us from having to trust a centralised authority. &#x20;
 
-DeFi, as an alternative approach of CeFi, provides full on-chain transparency and strict limit on use of user funds. With the code, credit risk can be made minimal.
+DeFi, as an alternative to CeFi, provides full on-chain transparency and strict limit on use of user funds. With code, credit risk can be made minimal.
 
 ### Permisionless, Trustless, Transparency
 
-We believe we don't decide who has the right to use the platform and how to benefit from the platform, but the community via Governance Vote. We believe in the power of fully decentralization to enable permissionless, trustless and transparency.
+Not we, but our community decides who has the right to use and benefit from the platform. We believe in the power of full decentralization and permissionless, trustless, transparency.
 
-The uniwhale developing team will be devoted to contribute and bring the initial vision of platform to our community members and incentivising everyone to participate in the DAO to BUILD together.
+Uniwhale team is committed to contributing and bringing this vision of the platform to our community, incentivising everyone to participate in the DAO to BUILD together.
 
 ### Best User Experience
 
-High slippage, high impermanent loss, complicated UX, inflated farming yield - we spotted many issues still existing in current DeFi protocols and many people are working on solving those. We are a group of developers and web 3 builders, we can't promise we will solve all above, but we are trying to crack one by one.&#x20;
+Unknown slippage, uncontrolled impermanent loss, complicated UX, inflated farming yield - we see many issues in the current DeFi protocols. We are a team of web3 developers / builders, joining the efforts to address these issues.&#x20;
 
-We aim to bring the best trading experience to traders, and the most straightforward liquidity provision to LPs, to earn marketing making fees like institutions, but without inflated token price fluctuation. &#x20;
+We aim to bring the best trading experience to traders, and the most intuitive liquidity provision to liquidity providers, but without harmful token price volatility. &#x20;
 
 ### Who We Are
 
