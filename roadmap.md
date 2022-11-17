@@ -1,14 +1,19 @@
 # Roadmap
 
-OATs Campaign
+#### Stage 1:&#x20;
 
-Testnet Launch Time
+* OATs Campaign&#x20;
+* NFT Whitelist
+* Testnet Launch&#x20;
+* NFT Mint
 
-TGE
+#### Stage 2:&#x20;
 
-Mainnet Launch
+* TGE
+* Mainnet Launch
 
-NFT whitelist
+#### Stage 3:
 
-Airdrop
+* Airdrop 1 for NFT holders
+* Airdrop 2 for DeFi Users
 
