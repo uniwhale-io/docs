@@ -2,7 +2,7 @@
 
 ## Democratization **of orderbook liquidity**&#x20;
 
-<mark style="color:green;">At uniwhale you can provide liquidity with a number of stablecoins(USDC, USDT, DAI, etc). The objective price oracle and single-sided liquidity protects liquidity providers from impermanent loss.</mark>
+<mark style="color:green;">At uniwhale you can provide liquidity with a number of stablecoins (USDC, USDT, DAI, etc). The objective price oracle and single-sided liquidity protects liquidity providers from impermanent loss.</mark>
 
 * <mark style="color:green;">Oracle-based price execution means zero slippage.</mark>
 * <mark style="color:green;">Single-sided stablecoin liquidity means zero impermanent loss.</mark>
