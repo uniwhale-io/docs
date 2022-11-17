@@ -2,19 +2,13 @@
 
 ### In Code We Trust
 
-Back to where it started: Satoshi created the vision and practical path of a trustless solution - Bitcoin.
-
-Code and protocol are proven as the security solution to the crisis.
+Back to where it started: Satoshi created the vision and practical path of a trustless solution - Bitcoin. Code and protocol are proven as the security solution to the crisis.
 
 Code never lies.
 
-Code is Law
+DeFi provides full on-chain transparency and strict limit on use of user funds. With the code, credit risk can be made minimal
 
-DeFi provides full on-chain transparency and strict limit on use of user funds.
-
-With the code, credit risk can be made minimal
-
-Permisionless, Trustless, Transparency
+### Permisionless, Trustless, Transparency
 
 ### Who We Are
 
