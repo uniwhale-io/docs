@@ -22,16 +22,34 @@ In addition, which stablecoins can be used as margin on Uniwhale platform will a
 
 ### Project Valuation and Peer Comps
 
-We view ourselves as the next generation of DeFi orderbook. Comparing to dydx, GMX, Perpetual's models, we try to solve more (details in medium link). By Nov 16, the FDV of dydx =, GMX =, Perp =
+We view ourselves as the next generation of DeFi orderbook. Comparing to dydx, GMX, Perpetual's models, we try to solve more (details in medium link). Use June 2022 data (before Arbitrum boost up) makes a more reasonable, comparable model.
+
+&#x20;          Market Cap, FDV
+
+DyDx = 157mio, 1.2bn
+
+Perp = 40mio, 85mio
+
+GMX = 350mio, 576mio
+
+Injective = 116mio, 160mio
+
+Uniwhale = \[20] mio FDV to start with&#x20;
 
 ### veCurve + esGMX = Uniwhale
 
-ff
+Similar to how the Curve protocol’s governance vote elected to distribute protocol revenues to CRV token holders, and distribute rewards to different stablecoin pair pools to direct liquidity, the team shall propose the similar measure.&#x20;
+
+Inspired from GMX’s tokenomics where escrowed emissions are successfully used. In essence, rather than paying rewards to stakers and liquidity providers in liquid, transferable governance tokens, emissions will be paid in escrowed token forms, to encourage long term holding.&#x20;
 
 ### Floor Price Fund (Buyback and burn)
 
-ff
+The floor price fund will grow in \[2] ways：
+
+And the floor price fund will be used to 1) and 2)&#x20;
 
 ### Referral and NFTs
 
-ff
+Unique ecosystem NFTs will allow any users to participate in liquidation bot and other strategy bot, as well as enjoy fee deduction and more.
+
+By using referral code, traders will receive significant discount on trading fees, in the same time, more transaction volume and revenues benefit the LPs and holders to earn higher yield.&#x20;
