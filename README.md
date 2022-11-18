@@ -5,16 +5,16 @@ coverY: 0
 
 # Introduction
 
-<mark style="color:green;">Uniwhale is an oracle-based decentralized on-chain perpetual trading exchange where</mark>&#x20;
+Uniwhale is an oracle-based decentralized on-chain perpetual trading exchange where <mark style="color:green;"></mark>&#x20;
 
-* <mark style="color:green;">You can trade, with up to 200x</mark> leverage, BTC, ETH, and many mainstream crypto assets, directly from your wallet.
-* <mark style="color:green;">You can provide liquidity with stablecoins like USDC, USDT, DAI, and more, to earn real yield from market-making and leverage trading.</mark>
+* You can trade, with up to 200x leverage, BTC, ETH, and many mainstream crypto assets, directly from your wallet.
+* You can provide liquidity with stablecoins like USDC, USDT, DAI, and more, to earn real yield from market-making and leverage trading.
 
-<mark style="color:green;">Based on objective price oracles and single-sided liquidity, Uniwhale aims to deliver the best trading experience for traders with zero credit risk, and minimise impermanent loss for liquidity providers.</mark>
+Based on objective price oracles and single-sided liquidity, Uniwhale aims to deliver the best trading experience for traders with zero credit risk, and minimise impermanent loss for liquidity providers.
 
-* <mark style="color:green;">Oracle-based price execution means zero slippage.</mark>
-* <mark style="color:green;">Single-sided stablecoin liquidity means zero impermanent loss.</mark>
-* <mark style="color:green;">Decentralized on-chain trading experience means zero credit risk.</mark>
+* Oracle-based price execution means zero slippage.
+* Single-sided stablecoin liquidity means zero impermanent loss.
+* Decentralized on-chain trading experience means zero credit risk.
 
 ## Uniwhale infrastructure is fully decentralised
 
