@@ -1,6 +1,6 @@
 # Introduction
 
-<figure><img src=".gitbook/assets/section_cover.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/section_cover (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
