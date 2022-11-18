@@ -59,7 +59,7 @@ Fee is \[.  ]%.
 
 Market Impact is calculated dynamically as a function of outstanding positions on the platform and the position size. It is a determinstic charge simulating the impact a new position would have on the market.
 
-Market Impact (%) = (long/short outstanding positions on the platform + Position size / 2) / 1% depth above/below
+Market Impact (%) = (long/short outstanding positions on the platform + Position size) / 1% depth above/below
 
 "1% depth above/below" is $\[.  ].
 
