@@ -5,6 +5,8 @@ coverY: 0
 
 # Our Vision
 
+<figure><img src="../.gitbook/assets/Uniwhale_Section_Cover (1).png" alt=""><figcaption></figcaption></figure>
+
 ## In Code We Trust
 
 Back to where it started: Satoshi created the vision and practical path of a trustless solution - Bitcoin. Code never lies, and saves us from having to trust a centralized authority. &#x20;
