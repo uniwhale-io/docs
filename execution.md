@@ -1,8 +1,3 @@
----
-cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2).png
-coverY: 0
----
-
 # Trading
 
 <figure><img src=".gitbook/assets/section_cover_trade.png" alt=""><figcaption></figcaption></figure>
