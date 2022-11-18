@@ -5,6 +5,8 @@ coverY: 0
 
 # Introduction
 
+<figure><img src=".gitbook/assets/Uniwhale_Section_Cover (1) (2).png" alt=""><figcaption></figcaption></figure>
+
 Uniwhale is an oracle-based decentralized on-chain perpetual trading exchange where <mark style="color:green;"></mark>&#x20;
 
 * You can trade, with up to 200x leverage, BTC, ETH, and many mainstream crypto assets, directly from your wallet.
