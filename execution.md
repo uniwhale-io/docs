@@ -2,7 +2,7 @@
 
 
 
-<figure><img src=".gitbook/assets/section_trade.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/section_trade (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Trade up to 200X
 
