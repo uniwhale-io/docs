@@ -1,4 +1,11 @@
+---
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400.png
+coverY: 0
+---
+
 # Trading
+
+<figure><img src=".gitbook/assets/home.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Trade up to 200X
 
