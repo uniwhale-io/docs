@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Unique Oracle Design
 
 ## Fast and accurate prices for on-chain contracts&#x20;
