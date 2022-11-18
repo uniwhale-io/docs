@@ -1,8 +1,3 @@
----
-cover: ../.gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2).png
-coverY: 0
----
-
 # Our Vision
 
 <figure><img src="../.gitbook/assets/Uniwhale_Section_Cover (1).png" alt=""><figcaption></figcaption></figure>

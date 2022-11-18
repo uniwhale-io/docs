@@ -1,11 +1,8 @@
----
-cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2) (1).png
-coverY: 0
----
-
 # Introduction
 
-<figure><img src=".gitbook/assets/Uniwhale_Section_Cover (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/section_cover.png" alt=""><figcaption></figcaption></figure>
+
+
 
 Uniwhale is an oracle-based decentralized on-chain perpetual trading exchange where <mark style="color:green;"></mark>&#x20;
 
