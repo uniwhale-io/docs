@@ -7,22 +7,27 @@ coverY: 0
 
 ## Democratization **of orderbook liquidity**&#x20;
 
-At Uniwhale, you can provide liquidity with a number of stablecoins (USDC, USDT, DAI, etc). The objective price oracle and single-sided liquidity protect liquidity providers from impermanent loss.
+Liquidity Pool democratizes orderbook liquidity by pooling liquidity providers into a single liquidity.
 
-* Oracle-based price execution means zero slippage.
-* Single-sided stablecoin liquidity means zero impermanent loss.
+Based on the pooled liquidity, Liquidity Pool acts as the central counterparty and clearinghouse to all positions.
+
+You can provide liquidity with a number of stablecoins (USDC, USDT, DAI, etc).
+
+Oracle-based price execution means zero slippage.
+
+Single-sided stablecoin liquidity means zero impermanent loss.
 
 ## Provide liquidity the way you want it and earn passive yield
 
 You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.
 
-Uniwhale Liquidity Pool thus provides a convenient way to earn passive real yield (trading fees) from market making and leverage trading.
+Liquidity Pool thus provides a convenient way to earn passive real yield (trading fees) from market making and leverage trading.
 
 ## Provide single-sided liquidity with stablecoins
 
 The design of the Liquidity Pool allows the market making of the orderbook at a fixed / pre-determined fee, with zero slippage, benefitting both traders and liquidity providers.
 
-Liquidity Pool uses our oracle aggregator to determine its mid-price and apply a fixed fee based on a pre-determined rule to create bid and ask, which are then used to fill the market limit orders on the orderbook.
+Liquidity Pool uses our oracle aggregator to determine its mid-price and apply a fixed fee based on a pre-determined rule to create bid and ask, which are then used to fill the market limit orders on the orderbook. See [Fee and Market Impact](execution.md#fee-and-market-impact).
 
 The Liquidity Pool accepts a number of stablecoins. Liquidity Pool tokens can be minted using any of these stablecoins and burnt to redeem any of these. The price at which the Liquidity Pool token is minted or burnt is determined based on the total market value of the Liquidity Pool divided by the outstanding supply of the token.&#x20;
 
