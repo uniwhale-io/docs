@@ -1,17 +1,22 @@
+---
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400.png
+coverY: 0
+---
+
 # Liquidity Pool
 
 ## Democratization **of orderbook liquidity**&#x20;
 
-<mark style="color:green;">At uniwhale you can provide liquidity with a number of stablecoins (USDC, USDT, DAI, etc). The objective price oracle and single-sided liquidity protects liquidity providers from impermanent loss.</mark>
+At uniwhale you can provide liquidity with a number of stablecoins (USDC, USDT, DAI, etc). The objective price oracle and single-sided liquidity protects liquidity providers from impermanent loss.
 
-* <mark style="color:green;">Oracle-based price execution means zero slippage.</mark>
-* <mark style="color:green;">Single-sided stablecoin liquidity means zero impermanent loss.</mark>
+* Oracle-based price execution means zero slippage.
+* Single-sided stablecoin liquidity means zero impermanent loss.
 
 ## Provide liquidity the way you want it and earn passive yield
 
-<mark style="color:green;">You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.</mark>
+You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.
 
-Uniwhale Liquidity Pool thus provides a convenient way to earn <mark style="color:red;">**Passive Real Yield**</mark> (trading fees) from market making and leverage trading.
+Uniwhale Liquidity Pool thus provides a convenient way to earn passive real yield (trading fees) from market making and leverage trading.
 
 ## Provide single-sided liquidity with stablecoins
 
