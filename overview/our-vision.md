@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/Uniwhale_Gitbook_Cover_1900x400.png
+cover: ../.gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2).png
 coverY: 0
 ---
 
