@@ -1,5 +1,7 @@
 ---
 description: (More details to be released...)
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400.png
+coverY: 0
 ---
 
 # Tokenomics

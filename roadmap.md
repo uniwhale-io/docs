@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400.png
+coverY: 0
+---
+
 # Roadmap
 
 #### Stage 1:&#x20;
