@@ -5,7 +5,7 @@ coverY: 0
 
 # Trading
 
-<figure><img src=".gitbook/assets/home.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/section_cover_trade.png" alt=""><figcaption></figcaption></figure>
 
 ## Trade up to 200X
 
