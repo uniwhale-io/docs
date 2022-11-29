@@ -5,20 +5,31 @@ coverY: 0
 
 # Roadmap
 
-#### Stage 1:&#x20;
+#### Q4 2022
 
-* OATs Campaign&#x20;
-* NFT Whitelist
-* Testnet Launch&#x20;
-* NFT Mint
+* Kick-off of a series of OAT campaigns
+* NFT Allowlist giveaways
+* Uniwhale 1.0 Public Testnet Launch
 
-#### Stage 2:&#x20;
+#### Q1 2023
 
-* TGE
-* Mainnet Launch
+* Tokenomics publish
+* Genesis NFT mint
+* Token Generation Event (TGE)
+* Oracle aggregator design and implementation
+* Uniwhale 1.0 Mainnet Launch
 
-#### Stage 3:
+#### Q2 2023
 
-* Airdrop 1 for NFT holders
-* Airdrop 2 for DeFi Users
+* Airdrop for early participants and NFT holders
+* Airdrop for DeFi users
+* Open liquidation bot API for NFT holders
+* Free trading campaign
+* Mobile App
+
+#### Q3 2023
+
+* Multi-chain launch
+* Uniwhale 2.0 Option Trading Testnet Launch
+* Built on Quant Strategy Launch&#x20;
 
