@@ -68,15 +68,15 @@ Opening a position will transfer the required margin to a dedicated on-chain con
 
 The initial margin is calculated based on the matched prices ("Mark Price").
 
-You can post margin in many stablecoins, which will then be automatically swapped into USDC.
+You can post margin in many stablecoins, which will then be automatically swapped into USDC using a third-party DEX (e.g. Uniswap), with the maximum amount of the stablecoin to meet the USDC margin requirement specified by you.
 
 ## Closing a position
 
 Closing a position will calculate the PnL based on the best price offered by the Liquidity Pool and transfer it to the trader, together with the margin posted.&#x20;
 
-A trader may request the PnL to be transferred in a stablecoin other than USDC, in which case the PnL (together with the margin) will be swapped into the requested stablecoin and transferred to the trader.
+You may request the PnL to be transferred in a stablecoin other than USDC, in which case the PnL (together with the margin) will be swapped into the requested stablecoin using a third-party DEX (e.g. Uniswap), with the minimum amount of the stablecoin specified by you, and transferred to you.
 
-A trader can not lose more than the margin posted.&#x20;
+You can not lose more than the margin posted.&#x20;
 
 ## Liquidation
 
@@ -96,4 +96,5 @@ Trading at uniwhale is subject to the following constraints:
 * A trader can carry at most $\[.  ] of margin across pairs.
 * Minimum position (after leverage) is $\[.  ].
 * A position has the maximum percentage PnL of \[.  ].
+* The maximum possible PnL of all open positions (long and short) across the platform cannot exceed the prevailing market value of Liquidity Pool.
 
