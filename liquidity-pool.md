@@ -42,3 +42,7 @@ The number of Liquidity Pool tokens minted in return is proportional to the amou
 ### Removing liquidity
 
 You can remove liquidity from Uniwhale Exchange any time either in USDC or in other stablecoins. If in other stablecoins, the relevant USDC is swapped into the stablecoin using a third-party DEX (e.g. Pancake Swap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
+
+Because Liquidity Pool balance must be sufficiently collateralized to meet all its obligations (see [Risk management](execution.md#risk-management)), the maximum liquidity you can remove at any time is restricted to the excess balance available (i.e. the difference between the Liqudity Pool balance and the collateral requirement).
+
+The amount of USDC or the stablecoin received in return is proportional to the amount of the Liquidity Pool tokens burnt relative to the outstanding supply of the token.

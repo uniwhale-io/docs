@@ -96,5 +96,4 @@ Trading at uniwhale is subject to the following constraints:
 * A trader can carry at most $\[.  ] of margin across pairs.
 * Minimum position (after leverage) is $\[.  ].
 * A position has the maximum percentage PnL of \[.  ].
-* The maximum possible PnL of all open positions (long and short) across the platform cannot exceed the prevailing market value of Liquidity Pool.
 
