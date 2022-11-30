@@ -32,3 +32,13 @@ Liquidity Pool uses our oracle aggregator to determine its mid-price and apply a
 The Liquidity Pool accepts a number of stablecoins. Liquidity Pool tokens can be minted using any of these stablecoins and burnt to redeem any of these. The price at which the Liquidity Pool token is minted or burnt is determined based on the total market value of the Liquidity Pool divided by the outstanding supply of the token.&#x20;
 
 Since the counterparty of all trades is the Liquidity Pool, this is a zero-sum game between liquidity providers and traders: the traders’ profit and losses will be directly transferred from/to the Liquidity Pool (resulting in a price increase/decrease of the Liquidity Pool token).
+
+### Adding liquidity
+
+You can provide liquidity to Uniwhale Exchange either with USDC or with other stablecoins. If other stablecoins are provided, they are swapped into USDC using a third-party DEX (e.g. Pancake Swap), with the minimum amount of USDC (i.e. maximum slippage) specified by you.
+
+The number of Liquidity Pool tokens minted in return is proportional to the amount of USDC you provide relative to the USDC balance Liquidity Pool holds.
+
+### Removing liquidity
+
+You can remove liquidity from Uniwhale Exchange any time either in USDC or in other stablecoins. If in other stablecoins, the relevant USDC is swapped into the stablecoin using a third-party DEX (e.g. Pancake Swap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
