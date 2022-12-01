@@ -70,6 +70,12 @@ The initial margin is calculated based on the matched prices ("Mark Price").
 
 You can post margin in many stablecoins, which will then be automatically swapped into USDC using a third-party DEX (e.g. Uniswap), with the maximum amount of the stablecoin to meet the USDC margin requirement specified by you.
 
+### Slippage setting
+
+Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
+
+To mitigate this risk, you can specify Slippage when opening a position, so that the actual execution meets your execution price requirement.
+
 ## Closing a position
 
 Closing a position will calculate the PnL based on the best price offered by the Liquidity Pool and transfer it to the trader, together with the margin posted.&#x20;
@@ -77,6 +83,12 @@ Closing a position will calculate the PnL based on the best price offered by the
 You may request the PnL to be transferred in a stablecoin other than USDC, in which case the PnL (together with the margin) will be swapped into the requested stablecoin using a third-party DEX (e.g. Uniswap), with the minimum amount of the stablecoin specified by you, and transferred to you.
 
 You can not lose more than the margin posted.&#x20;
+
+### Slippage setting
+
+Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
+
+To mitigate this risk, you can specify Slippage when closing a position, so that the actual execution meets your execution price requirement.
 
 ## Liquidation
 
