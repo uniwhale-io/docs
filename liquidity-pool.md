@@ -35,13 +35,13 @@ Since the counterparty of all trades is the Liquidity Pool, this is a zero-sum g
 
 ### Adding liquidity
 
-You can provide liquidity to Uniwhale Exchange either with USDC or with other stablecoins. If other stablecoins are provided, they are swapped into USDC using a third-party DEX (e.g. Pancake Swap), with the minimum amount of USDC (i.e. maximum slippage) specified by you.
+You can provide liquidity to Uniwhale Exchange either with USDC or with other stablecoins. If other stablecoins are provided, they are swapped into USDC using a third-party DEX (e.g. Uniswap), with the minimum amount of USDC (i.e. maximum slippage) specified by you.
 
 The number of Liquidity Pool tokens minted in return is proportional to the amount of USDC you provide relative to the USDC balance Liquidity Pool holds.
 
 ### Removing liquidity
 
-You can remove liquidity from Uniwhale Exchange any time either in USDC or in other stablecoins. If in other stablecoins, the relevant USDC is swapped into the stablecoin using a third-party DEX (e.g. Pancake Swap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
+You can remove liquidity from Uniwhale Exchange any time either in USDC or in other stablecoins. If in other stablecoins, the relevant USDC is swapped into the stablecoin using a third-party DEX (e.g. Uniswap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
 
 Because Liquidity Pool balance must be sufficiently collateralized to meet all its obligations (see [Risk management](execution.md#risk-management)), the maximum liquidity you can remove at any time is restricted to the excess balance available (i.e. the difference between the Liqudity Pool balance and the collateral requirement).
 
