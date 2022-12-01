@@ -8,7 +8,7 @@ coverY: 0
 #### Stage 1
 
 * Kick-off of a series of campaigns
-* NFT Allowlist giveaways
+* NFT Whitelist giveaways
 * Uniwhale 1.0 Public Testnet Launch
 
 #### Stage 2
