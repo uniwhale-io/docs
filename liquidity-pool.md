@@ -11,7 +11,7 @@ Liquidity Pool democratizes orderbook liquidity by pooling liquidity providers i
 
 Based on the pooled liquidity, Liquidity Pool acts as the central counterparty and clearinghouse to all positions.
 
-You can provide liquidity with a number of stablecoins (USDC, USDT, DAI, etc).
+You can provide liquidity with a number of stablecoins (BUSD, USDC, USDT).
 
 Oracle-based price execution means zero slippage.
 
@@ -35,14 +35,14 @@ Since the counterparty of all trades is the Liquidity Pool, this is a zero-sum g
 
 ### Adding liquidity
 
-You can provide liquidity to Uniwhale Exchange either with USDC or with other stablecoins. If other stablecoins are provided, they are swapped into USDC using a third-party DEX (e.g. Uniswap), with the minimum amount of USDC (i.e. maximum slippage) specified by you.
+You can provide liquidity to Uniwhale Exchange either with BUSD or with other stablecoins. If other stablecoins are provided, they are swapped into BUSD using a third-party DEX (e.g. Uniswap), with the minimum amount of BUSD (i.e. maximum slippage) specified by you.
 
-The number of Liquidity Pool tokens minted in return is proportional to the amount of USDC you provide relative to the USDC balance Liquidity Pool holds.
+The number of Liquidity Pool tokens minted in return is proportional to the amount of BUSD you provide relative to the BUSD balance Liquidity Pool holds.
 
 ### Removing liquidity
 
-You can remove liquidity from Uniwhale Exchange any time either in USDC or in other stablecoins. If in other stablecoins, the relevant USDC is swapped into the stablecoin using a third-party DEX (e.g. Uniswap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
+You can remove liquidity from Uniwhale Exchange any time either in BUSD or in other stablecoins. If in other stablecoins, the relevant BUSD is swapped into the stablecoin using a third-party DEX (e.g. Uniswap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
 
 Because Liquidity Pool balance must be sufficiently collateralized to meet all its obligations (see [Risk management](execution.md#risk-management)), the maximum liquidity you can remove at any time is restricted to the excess balance available (i.e. the difference between the Liqudity Pool balance and the collateral requirement).
 
-The amount of USDC or the stablecoin received in return is proportional to the amount of the Liquidity Pool tokens burnt relative to the outstanding supply of the token.
+The amount of BUSD or the stablecoin received in return is proportional to the amount of the Liquidity Pool tokens burnt relative to the outstanding supply of the token.
