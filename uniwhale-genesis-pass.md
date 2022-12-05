@@ -9,4 +9,4 @@ Uniwhale Genesis Pass consists of 10,000 OG membership NFTs with premium platfor
 * 5% yield boosting for staking.
 * Governance token airdrop.
 
-Pass will be free mint for whitelist members. Additional benefits will be added as the platform grows. See details in the #whitelist-rules channel for how to become whitelisted.
+Pass will be free mint for whitelist members. Additional benefits will be added as the platform grows. See details in the #whitelist-rules channel [https://discord.gg/WK9P2MsH4w](https://discord.gg/WK9P2MsH4w) for how to become whitelisted.
