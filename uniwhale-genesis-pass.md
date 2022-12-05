@@ -1,6 +1,6 @@
 # Uniwhale Genesis Pass
 
-**A Limited Drop of Genesis Pass NFTs**
+### **A Limited Drop of Genesis Pass NFTs**
 
 <figure><img src=".gitbook/assets/Bank card (1).png" alt=""><figcaption><p>Uniwhale Genesis Pass</p></figcaption></figure>
 
