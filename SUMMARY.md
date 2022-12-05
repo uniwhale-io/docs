@@ -6,5 +6,6 @@
 * [Trading](execution.md)
 * [Liquidity Pool](liquidity-pool.md)
 * [Tokenomics](tokenomics.md)
+* [Uniwhale Genesis Pass](uniwhale-genesis-pass.md)
 * [Roadmap](roadmap.md)
 * [Social Media](social-media.md)
