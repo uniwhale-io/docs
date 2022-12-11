@@ -44,21 +44,21 @@ Profit Target price can be added to the Market Order or Market Limit Order, whic
 
 Prices offered by the [Liquidity Pool](liquidity-pool.md) embed two types of transaction costs - Fee and Market Impact.
 
-**Long/Short Open Price** = Oracle Price x (1 +/- Fee +/- Market Impact)
+`Long/Short Open Price = Oracle Price x (1 +/- Fee +/- Market Impact)`
 
-**Long/Short Close Price** = Oracle Price x (1 -/+ Fee -/+ Market Impact)
+`Long/Short Close Price = Oracle Price x (1 -/+ Fee -/+ Market Impact)`
 
 ### Fee
 
-Fee is \[.  ]%.
+Fee is 0.10%.
 
 ### Market Impact
 
 Market Impact is calculated dynamically as a function of outstanding positions on the platform and the position size. It is a deterministic charge simulating the impact a new position would have on the market.
 
-Market Impact (%) = (long/short outstanding positions on the platform + Position size) / 1% depth above/below
+`Market Impact (%) = (long/short outstanding positions on the platform + Position size) / 1% depth above/below`
 
-"1% depth above/below" is $\[.  ].
+`1% depth above/below` is benchmarked to the corresponding liquidity at leading exchanges and regularly updated.
 
 ## Opening a position
 
@@ -103,10 +103,28 @@ Liquidation closes the relevant position. It is subject to a liquidation penalty
 Trading at uniwhale is subject to the following constraints:
 
 * Leverage cannot exceed 200x.
-* A trader can carry at most \[. ] open positions for each pair.
-* A trader can carry at most \[. ] open positions across pairs.
-* A trader can carry at most $\[.  ] of margin across pairs.
-* Minimum position (after leverage) is $\[.  ].
-* A position has the maximum percentage PnL of \[.  ].
+* A trader can carry at most 3 open positions for each pair.
+* A trader can carry at most 3 open positions across pairs.
+* A trader can carry at most $100,000 of margin across pairs.
+* Minimum position (after leverage) is $100.
+* A position is subject to the maximum percentage PnL, determined as a function of your margin and leverage (see [Maximum Percentage PnL](execution.md#maximum-percentage-pnl)).
 * The maximum possible PnL of all open positions (long and short) across the platform cannot exceed the prevailing market value of Liquidity Pool.
+
+### Maximum Percentage PnL
+
+At Uniwhale, we must ensure that the platform always stays solvent as positions are opened and closed. That means the counterparty to all the trades, ie. the Liquidity Pool, must be able to meet the maximum possible PnL of all open positions (long and short) across the platform.
+
+Because the maximum possible PnL of long/short open positions, by default, is unlimited/very large, respectively, we apply so-called "Maximum Percentage PnL" to each position, which limits the maximum possible PnL of each position and therefore allows us to determine the maximum possible PnL of all open positions.
+
+To determine Maximum Percentage PnL, we take into consideration the leverage of a position, and the higher the leverage a position has, the higher its Maximum Percentage PnL, i.e.
+
+`Maximum Percentage PnL = Leverage / Maximum Percentage PnL Factor`
+
+`Maximum Percentage PnL Factor = 20`
+
+So from the above formula, a position with 200x leverage will be subject to 10x maximum possible PnL on margin, whereas it will be 10% for a position with 2x leverage.
+
+The above makes sense because generally you would expect a higher potential return with a higher leverage than with a lower leverage.&#x20;
+
+It also allows the Liquidity Pool to run a far better capital efficiency because the pool then allocates relatively (per leverage) more capital to those with higher leverage than those with lower leverage.
 
