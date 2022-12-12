@@ -18,6 +18,13 @@ Oracle-based trade execution mitigates such harmful candlestick wicks because th
 
 Uniwhale uses [Pyth Network](https://pyth.network) for its oracle prices. Pyth Network is an oracle that publishes financial market data to multiple blockchains. Market data is contributed by over 70 [first-party publishers](https://pyth.network/publishers/), including some of the biggest exchanges and market making firms in the world. Each price feed publishes a [robust aggregate](https://docs.pyth.network/how-pyth-works/price-aggregation) of publisher prices that updates multiple times per second.
 
+Pyth Network is different from many other oracles in that it uses ["on-demand" price update model](https://docs.pyth.network/consume-data/on-demand), whose advantages over the more traditional "push" model, among many, we like are:&#x20;
+
+* Gas efficiency: **** On-chain prices are only updated when they are needed.
+* High update frequency: **** Pyth Network price feeds update once per second, which is faster than the blocktime of most blockchains.
+* Low latency: Every transaction can use a recent off-chain price, instead of relying on the last on-chain update pushed by the oracle itself.
+* Reliable in volatile conditions: On-demand model does not fail to land price updates in volatile market conditions, because price updates are incorporated into the valuable transactions themselves (and therefore can compete for bandwidth).
+
 ### Latency
 
 Any protocols dependent on oracles must account for the difference in latency between on-chain oracles and off-chain sources (e.g. centralized exchanges). No on-chain oracle can match the latency of an off-chain source due to the added overhead for consensus and security. Therefore, protocols must assume that there will be players who see price changes slightly before the protocol does. [Pyth Network](https://docs.pyth.network/consume-data/best-practices#latency) describes this situation as follows:
@@ -46,13 +53,21 @@ To mitigate this risk, Uniwhale Exchange is built on its own custom network of 8
 
 Our custom price service network therefore provide for maximum resilience and decentralization.
 
-As part of its product roadmap, we are also building a custom oracle aggregator based on multiple service providers (including Pyth) to determine trading prices.
-
-By aggregating and filtering oracle prices across multiple service providers, our oracle aggregator can provide an oracle price that is even more reliable.
-
 ### Oracle network health
 
 You can monitor the health of Pyth Network at [Dune](https://dune.com/cctdaniel/pyth-oracle).
+
+## What the future holds
+
+Our oracle infrastructure is built to provide manipulation-resistant prices for trading with focus on latency and price availability.
+
+We, however, also recognize that our entire infrastructure, built around Pyth Network, relies on a single oracle protocol, however decentralized it may be.
+
+As part of the product roadmap, we are building a custom oracle aggregator based on multiple protocols (including Pyth) to determine trading prices.
+
+By aggregating and filtering prices across multiple oracle protocols, our oracle aggregator can provide a price that is even more reliable with multiple redundancies.
+
+###
 
 
 
