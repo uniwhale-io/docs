@@ -17,6 +17,24 @@ Oracle-based price execution means zero slippage.
 
 Single-sided stablecoin liquidity means zero impermanent loss.
 
+## Background
+
+Our single-sided liquidity pool as the central counterparty to all positions at Uniwhale Exchange and its valuation proposition to liquidity providers are founded on the well-established academic research that demonstrates, over time, market makers win over short-term traders.
+
+There are a number of academic literatures on this topic (for example, [Jordan and Diltz](https://www.jstor.org/stable/4480531) and [Barber et al.](https://faculty.haas.berkeley.edu/odean/papers/Day%20Traders/Day%20Trading%20and%20Learning%20110217.pdf))
+
+In their paper, Barber et al. summarizes:
+
+`the aggregate performance of day traders is negative, that the vast majority of day traders are unprofitable, and many persist despite an extensive experience of losses`
+
+The above is then illustrated clearly in the chart below.
+
+<figure><img src=".gitbook/assets/Screenshot 2022-12-13 at 3.37.32 PM.png" alt=""><figcaption><p>Do Day Traders Rationally Learn About Their Ability? Barber et al.</p></figcaption></figure>
+
+Compared to providing liquidity to AMMs, we make it possible for liquidity providers to provide liquidity against a pattern of trading that has been extensively analysed by the academia to show that liquidity providers will win.
+
+An important point to note, however, is that this does not mean traders necessarily have to lose, quite the opposite. Liquidity providers take positions against all trades, whereas a trader takes one (or more) of the opposite of those positions. So liquidity providers are betting against the market, whereas a trader is betting against a specific event. So long as the market behaves as expected, the liquidity providers win (as the history demonstrates above). So long as specific events behave as expected, the trader wins.
+
 ## Provide liquidity the way you want it and earn passive yield
 
 You can provide liquidity to the orderbook, either directly by posting limit orders, or by pooling your assets with others into Liquidity Pool.
