@@ -61,6 +61,6 @@ The number of Liquidity Pool tokens minted in return is proportional to the amou
 
 You can remove liquidity from Uniwhale Exchange any time either in BUSD or in other stablecoins. If in other stablecoins, the relevant BUSD is swapped into the stablecoin using a third-party DEX (e.g. Uniswap), with the mininum amount of the stablecoin (i.e. maximum slippage) specified by you.
 
-Because Liquidity Pool balance must be sufficiently collateralized to meet all its obligations (see [Risk management](execution.md#risk-management)), the maximum liquidity you can remove at any time is restricted to the excess balance available (i.e. the difference between the Liqudity Pool balance and the collateral requirement).
+Because Liquidity Pool balance must be sufficiently collateralized to meet all its obligations (see [Risk management](execution.md#risk-management)), the maximum liquidity you can remove at any time is restricted to the excess balance available (i.e. the difference between the Liquidity Pool balance and the collateral requirement).
 
 The amount of BUSD or the stablecoin received in return is proportional to the amount of the Liquidity Pool tokens burnt relative to the outstanding supply of the token.
