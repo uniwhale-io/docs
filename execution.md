@@ -70,7 +70,7 @@ Opening a position will transfer the required margin to a dedicated on-chain con
 
 To open a position, you need to enter the margin you want to put up together with the leverage you are looking for.
 
-You can post margin in many stablecoins, which will then be automatically swapped into BUSD using a third-party DEX (e.g. Uniswap), with the maximum amount of the stablecoin to meet the BUSD margin requirement specified by you.
+You can post margin in many stablecoins, which will then be automatically swapped into BUSD using a third-party DEX (e.g. PancakeSwap), with the maximum amount of the stablecoin to meet the BUSD margin requirement specified by you.
 
 ### Slippage setting
 
@@ -84,15 +84,15 @@ To mitigate this risk, you can specify Slippage when opening a position, so that
 
 Closing a position will calculate the PnL based on the best price offered by the Liquidity Pool and transfer it to the trader, together with the margin posted.&#x20;
 
-You may request the PnL to be transferred in a stablecoin other than BUSD, in which case the PnL (together with the margin) will be swapped into the requested stablecoin using a third-party DEX (e.g. Uniswap), with the minimum amount of the stablecoin specified by you, and transferred to you.
+You may request the PnL to be transferred in a stablecoin other than BUSD, in which case the PnL (together with the margin) will be swapped into the requested stablecoin using a third-party DEX (e.g. PancakeSwap), with the minimum amount of the stablecoin specified by you, and transferred to you.
 
 You can not lose more than the margin posted.&#x20;
 
-### Slippage setting
+### Limit Price or Market Price
 
 Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
 
-To mitigate this risk, you can specify Slippage when closing a position, so that the actual execution meets your execution price requirement.
+To mitigate this risk, you can specify Limit Price when closing a position, so that the actual execution meets your execution price requirement. Specifying a Market Price will simply accept the actual execution price.
 
 ## Liquidation
 
