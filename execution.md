@@ -68,7 +68,7 @@ Opening a position will transfer the required margin to a dedicated on-chain con
 
 [Liquidity Pool](liquidity-pool.md) which acts as the central counterparty and clearinghouse to all positions.
 
-The initial margin is calculated based on the matched prices ("Mark Price").
+To open a position, you need to enter the margin you want to put up together with the leverage you are looking for.
 
 You can post margin in many stablecoins, which will then be automatically swapped into BUSD using a third-party DEX (e.g. Uniswap), with the maximum amount of the stablecoin to meet the BUSD margin requirement specified by you.
 
