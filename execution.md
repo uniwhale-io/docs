@@ -16,7 +16,7 @@ We do not custody your assets. Your assets stay with you and the margins posted 
 
 All positions are margined in BUSD. Both isolated and portfolio margining will be supported.&#x20;
 
-You can add margins to outstanding positions, but cannot partially withdraw posted margins. When margins are added to an outstanding position, the relevant liquidation price is adjusted.
+You can add and remove margins to outstanding positions. When margins are updated to an outstanding position, the relevant liquidation price is also adjusted.
 
 Multiple stablecoins are accepted as eligible margins. These will be swapped automatically to BUSD.
 
