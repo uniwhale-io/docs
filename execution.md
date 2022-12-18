@@ -28,7 +28,7 @@ You can trade either Market Order or Market Limit Order. Both order types can al
 
 Market orders are filled at the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
-### Market Limit Order
+### Market Limit Order (coming soon)
 
 Market limit orders are filled when the limit prices match the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
@@ -62,6 +62,8 @@ Market Impact is calculated dynamically as a function of outstanding positions o
 
 ## Opening a position
 
+<figure><img src=".gitbook/assets/Screenshot 2022-12-18 at 10.58.26 AM.png" alt=""><figcaption></figcaption></figure>
+
 Opening a position will transfer the required margin to a dedicated on-chain contract, whose sole purpose is to hold trader margins.
 
 [Liquidity Pool](liquidity-pool.md) which acts as the central counterparty and clearinghouse to all positions.
@@ -77,6 +79,8 @@ Your execution price is deterministically calculated (see [Fee and Market Impact
 To mitigate this risk, you can specify Slippage when opening a position, so that the actual execution meets your execution price requirement.
 
 ## Closing a position
+
+<figure><img src=".gitbook/assets/Screenshot 2022-12-18 at 11.06.06 AM.png" alt=""><figcaption></figcaption></figure>
 
 Closing a position will calculate the PnL based on the best price offered by the Liquidity Pool and transfer it to the trader, together with the margin posted.&#x20;
 
@@ -116,13 +120,9 @@ At Uniwhale, we must ensure that the platform always stays solvent as positions 
 
 Because the maximum possible PnL of long/short open positions, by default, is unlimited/very large, respectively, we apply so-called "Maximum Percentage PnL" to each position, which limits the maximum possible PnL of each position and therefore allows us to determine the maximum possible PnL of all open positions.
 
-To determine Maximum Percentage PnL, we take into consideration the leverage of a position, and the higher the leverage a position has, the higher its Maximum Percentage PnL, i.e.
+To determine Maximum Percentage PnL, we take into consideration the leverage of a position, and the higher the leverage a position has, the higher its Maximum Percentage PnL subject to a cap and a floor, i.e.
 
-`Maximum Percentage PnL = Leverage / Maximum Percentage PnL Factor`
-
-`Maximum Percentage PnL Factor = 20`
-
-So from the above formula, a position with 200x leverage will be subject to 10x maximum possible PnL on margin, whereas it will be 10% for a position with 2x leverage.
+`Maximum Percentage PnL = Max(Floor, Min(Cap, Leverage / Maximum Percentage PnL Factor))`
 
 The above makes sense because generally you would expect a higher potential return with a higher leverage than with a lower leverage.&#x20;
 
