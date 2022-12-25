@@ -106,11 +106,11 @@ Liquidation closes the relevant position. It is subject to a liquidation penalty
 
 Trading at uniwhale is subject to the following constraints:
 
-* Leverage cannot exceed 200x.
-* A trader can carry at most 3 open positions for each pair.
-* A trader can carry at most 3 open positions across pairs.
-* A trader can carry at most $100,000 of margin across pairs.
-* Minimum position (after leverage) is $100.
+* Leverage cannot exceed a cap.
+* The number of open positions for each pair a trader can carry is capped.
+* The number of open positions across pairs a trade can carry is capped.
+* The total margin across pairs a trader can carry is capped.
+* There is a minimum position (after leverage) required.
 * A position is subject to the maximum percentage PnL, determined as a function of your margin and leverage (see [Maximum Percentage PnL](execution.md#maximum-percentage-pnl)).
 * The maximum possible PnL of all open positions (long and short) across the platform cannot exceed the prevailing market value of Liquidity Pool.
 
