@@ -9,3 +9,4 @@
 * [Uniwhale Genesis Pass](uniwhale-genesis-pass.md)
 * [Roadmap](roadmap.md)
 * [Social Media](social-media.md)
+* [Terms and Condition](terms-and-condition.md)
