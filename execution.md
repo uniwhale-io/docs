@@ -60,6 +60,32 @@ Market Impact is calculated dynamically as a function of outstanding positions o
 
 `1% depth above/below` is benchmarked to the corresponding liquidity at leading exchanges and regularly updated.
 
+## Funding and Rollover Fee
+
+Outstanding positions are subject to Funding Fee and Rollover Fee.&#x20;
+
+### Funding Fee
+
+Funding Fee is a dynamic fee charged per block-height that is based on the long/short outstanding position imbalance on the platform and is charged on the position size (i.e. your margin multiplied by the leverage).&#x20;
+
+Funding Fee can be positive or negative, depending on your position relative to the position imbalance on the platform. Generally speaking, you are paid Funding Fee to take a contrarian view, and pay Funding Fee to take a consensus view.&#x20;
+
+Funding Fee protects the platform by helping balance the long/short outstanding positions.
+
+`Long Funding Fee Per Block (%) = Base Fee Per Block x (long outstanding position on the platform - short outstanding position on the platform) / long outstanding position on the platform`
+
+`Short Funding Fee Per Block (%) = Base Fee Per Block x (short outstanding position on the platform - long outstanding position on the platform) / short outstanding position on the platform`
+
+`Base Fee Per Block` is different for each crypto asset and is updated periodically.
+
+### Rollover Fee
+
+Rollover Fee is a fixed fee charged per block-height on your margin. Because it is charged on your margin, the higher the leverage, the less significant the Rollover Fee is to your overall position. Rollover Fee protects the platform by helping level the risk of lower leverage positions with that of higher leverage positions.
+
+`Rollover Fee per Block (%) = Base Fee Per Block x position margin`
+
+`Base Fee Per Block` is different for each crypto asset and is updated periodically.
+
 ## Opening a position
 
 <figure><img src=".gitbook/assets/Screenshot 2022-12-18 at 10.58.26 AM.png" alt=""><figcaption></figcaption></figure>
