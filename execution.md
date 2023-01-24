@@ -70,7 +70,7 @@ Funding Fee is a dynamic fee charged per block-height that is based on the long/
 
 Funding Fee can be positive or negative, depending on your position relative to the position imbalance on the platform. Generally speaking, you are paid Funding Fee to take a contrarian view, and pay Funding Fee to take a consensus view.&#x20;
 
-Funding Fee protects the platform by helping balance the long/short outstanding positions.
+Funding Fee protects the platform and the liquidity providers by helping balance the long/short outstanding positions.
 
 `Long Funding Fee Per Block (%) = Base Fee Per Block x (long outstanding position on the platform - short outstanding position on the platform) / long outstanding position on the platform`
 
@@ -78,9 +78,11 @@ Funding Fee protects the platform by helping balance the long/short outstanding 
 
 `Base Fee Per Block` is different for each crypto asset and is updated periodically.
 
+The definitions above mean the total Long Funding Fee per block always equals the total Short Funding Fee per block, i.e. this is a transmission mechanism by which traders with consensus view pay traders with contrarian view. Therefore, no Funding Fee is paid to the platform or the liquidity providers.
+
 ### Rollover Fee
 
-Rollover Fee is a fixed fee charged per block-height on your margin. Because it is charged on your margin, the higher the leverage, the less significant the Rollover Fee is to your overall position. Rollover Fee protects the platform by helping level the risk of lower leverage positions with that of higher leverage positions.
+Rollover Fee is a fixed fee charged per block-height on your margin. Because it is charged on your margin, the higher the leverage, the less significant the Rollover Fee is to your overall position. Rollover Fee protects the platform and the liquidity providers by helping level the risk of lower leverage positions with that of higher leverage positions.
 
 `Rollover Fee per Block (%) = Base Fee Per Block x position margin`
 
