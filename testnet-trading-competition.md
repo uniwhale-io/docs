@@ -10,8 +10,8 @@
 
 ## Rules: <a href="#b509" id="b509"></a>
 
-* Get your trading funds from the Uniwhale Testnet Faucet page.
-* No registration or KYC required to participate in the competition. Simply use the Uniwhale Testnet.
+* Get your trading funds from the Uniwhale [Testnet Faucet](https://app.gitbook.com/s/0xEle6Jl265gogxiAp8X/) page.
+* No registration or KYC required to participate in the competition. Simply use the [Uniwhale Testnet](https://app.testnet.uniwhale.co/).
 * There will be a number of trading sessions over the two weeks and you can participate in as many as you like.
 * Each trading session lasts 48 hours, with the starting time of each session announced on [Discord](http://discord.gg/Uniwhale).
 * You will be a winner for a trading session, if your session ROE (net PnL over margin used) is in the top 3!
@@ -32,4 +32,4 @@
   All open position will be automatically closed at End Time.
 * After each trading session, we will announce the session results together with the new session time on the Discord Announcement channel and distribute rewards.
 * The winners’ airdrop boost points will be automatically accumulated on the Airdrop Dashboard (coming soon).
-* The winners can claim NFT whitelist on Discord. Please note the whitelist can be claimed only once.
+* The winners can claim NFT whitelist on [Discord](http://discord.gg/Uniwhale). Please note the whitelist can be claimed only once.
