@@ -14,11 +14,11 @@ We do not custody your assets. Your assets stay with you and the margins posted 
 
 ## Margining
 
-All positions are margined in BUSD. Both isolated and portfolio margining will be supported.&#x20;
+All positions are margined in BUSD.
 
 You can add and remove margins to outstanding positions. When margins are updated to an outstanding position, the relevant liquidation price is also adjusted.
 
-Multiple stablecoins are accepted as eligible margins. These will be swapped automatically to BUSD.
+(coming soon) Multiple stablecoins are accepted as eligible margins. These will be swapped automatically to BUSD.
 
 ## Order type supported
 
@@ -28,7 +28,7 @@ You can trade either Market Order or Market Limit Order. Both order types can al
 
 Market orders are filled at the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
-### Market Limit Order (coming soon)
+### Market Limit Order
 
 Market limit orders are filled when the limit prices match the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
@@ -90,7 +90,7 @@ Rollover Fee is a fixed fee charged per block-height on your margin. Because it 
 
 ## Opening a position
 
-<figure><img src=".gitbook/assets/Screenshot 2022-12-18 at 10.58.26 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-02-05 at 3.56.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 Opening a position will transfer the required margin to a dedicated on-chain contract, whose sole purpose is to hold trader margins.
 
@@ -98,25 +98,25 @@ Opening a position will transfer the required margin to a dedicated on-chain con
 
 To open a position, you need to enter the margin you want to put up together with the leverage you are looking for.
 
-You can post margin in many stablecoins, which will then be automatically swapped into BUSD using a third-party DEX (e.g. PancakeSwap), with the maximum amount of the stablecoin to meet the BUSD margin requirement specified by you.
+You can post margin in many stablecoins (coming soon), which will then be automatically swapped into BUSD using a third-party DEX (e.g. PancakeSwap), with the maximum amount of the stablecoin to meet the BUSD margin requirement specified by you.
 
-### Slippage setting
+### Tolerance setting
 
 Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
 
-To mitigate this risk, you can specify Slippage when opening a position, so that the actual execution meets your execution price requirement.
+To mitigate this risk, you can specify Tolerance when opening a position, so that the actual execution meets your execution price requirement.
 
 ## Closing a position
 
-<figure><img src=".gitbook/assets/Screenshot 2022-12-18 at 11.06.06 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2023-02-05 at 3.59.46 PM.png" alt=""><figcaption></figcaption></figure>
 
 Closing a position will calculate the PnL based on the best price offered by the Liquidity Pool and transfer it to the trader, together with the margin posted.&#x20;
 
-You may request the PnL to be transferred in a stablecoin other than BUSD, in which case the PnL (together with the margin) will be swapped into the requested stablecoin using a third-party DEX (e.g. PancakeSwap), with the minimum amount of the stablecoin specified by you, and transferred to you.
+(coming soon) You may request the PnL to be transferred in a stablecoin other than BUSD, in which case the PnL (together with the margin) will be swapped into the requested stablecoin using a third-party DEX (e.g. PancakeSwap), with the minimum amount of the stablecoin specified by you, and transferred to you.
 
 You can not lose more than the margin posted.&#x20;
 
-### Limit Price or Market Price
+### Limit Price or Market Price (coming soon)
 
 Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
 
@@ -124,7 +124,7 @@ To mitigate this risk, you can specify Limit Price when closing a position, so t
 
 ## Liquidation
 
-Outstanding positions are subject to liquidation if the relevant liquidation price is breached according to the price oracle ("Index Price").
+Outstanding positions are subject to liquidation if the relevant liquidation price is breached according to the price oracle.
 
 Outstanding positions eligible for liquidation are liquidated at the earliest chance, to protect the users and the platform.
 
