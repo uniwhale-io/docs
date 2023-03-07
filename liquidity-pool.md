@@ -3,7 +3,7 @@ cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2) (2).png
 coverY: 0
 ---
 
-# ⛵ Liquidity Pool
+# Liquidity Pool
 
 ## Democratization **of orderbook liquidity**&#x20;
 
@@ -56,6 +56,12 @@ Since the counterparty of all trades is the Liquidity Pool, this is a zero-sum g
 You can provide liquidity to Uniwhale Exchange either with USDT or with other stablecoins (coming soon). If other stablecoins are provided, they are swapped into USDT using a third-party DEX (e.g. Uniswap), with the minimum amount of USDT (i.e. maximum slippage) specified by you.
 
 The number of Liquidity Pool tokens minted in return is proportional to the amount of USDT you provide relative to the USDT balance Liquidity Pool holds.
+
+#### APR
+
+The formula for the Annualised Percentage Return ("APR") is as follows:
+
+`APR = The 7-day average of total trading fee per block x no. of blocks per year / balance of Liquidity Pool for the previous block`
 
 ### Removing liquidity
 
