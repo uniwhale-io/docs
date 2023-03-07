@@ -61,7 +61,9 @@ The number of Liquidity Pool tokens minted in return is proportional to the amou
 
 The formula for the Annualised Percentage Return ("APR") is as follows:
 
-`APR = The 7-day average of total trading fee per block x no. of blocks per year / balance of Liquidity Pool for the previous block`
+`APR = 7-day average of (APR for block)`
+
+`APR for block = total trading fee per block x no. of blocks per year / balance of Liquidity Pool for the previous block`
 
 ### Removing liquidity
 
