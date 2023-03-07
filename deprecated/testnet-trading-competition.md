@@ -2,7 +2,7 @@
 
 
 
-<figure><img src=".gitbook/assets/medium_trading_competition.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/medium_trading_competition.png" alt=""><figcaption></figcaption></figure>
 
 **Start date**: January 30, 2023
 

@@ -3,7 +3,7 @@ cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2) (2).png
 coverY: 0
 ---
 
-# Liquidity Pool
+# ⛵ Liquidity Pool
 
 ## Democratization **of orderbook liquidity**&#x20;
 

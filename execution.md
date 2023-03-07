@@ -1,4 +1,9 @@
-# Trading
+---
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (1).png
+coverY: 0
+---
+
+# 💹 Trading
 
 
 

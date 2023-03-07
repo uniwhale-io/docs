@@ -3,7 +3,7 @@ cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2) (2).png
 coverY: 0
 ---
 
-# Tokenomics
+# 👭 Tokenomics
 
 The tokenomics of a protocol charts a course toward the decentralization and autonomy of that protocol. Given a common thread of its governance token to bind them, how does an amorphous community weave itself towards a tapestry? Tokenomics is not a series of binary “do or don’t” gates, but of incentives and self-governance as steering mechanisms to guide a community toward maximizing its utility.
 

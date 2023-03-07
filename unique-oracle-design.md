@@ -1,4 +1,9 @@
-# Unique Oracle Design
+---
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (1).png
+coverY: 0
+---
+
+# 🧙♂ Unique Oracle Design
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

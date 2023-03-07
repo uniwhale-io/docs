@@ -1,4 +1,9 @@
-# Introduction
+---
+cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (1).png
+coverY: 0
+---
+
+# 🐳 Introduction
 
 <figure><img src=".gitbook/assets/section_cover (1).png" alt=""><figcaption></figcaption></figure>
 
