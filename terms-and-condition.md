@@ -3,7 +3,7 @@ cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (1).png
 coverY: 0
 ---
 
-# 🙋 Terms and Condition
+# Terms and Condition
 
 IN ACCESSING AND/OR USING UNIWHALE EXCHANGE, YOU ACKNOWLEDGE AND AGREE THAT :
 
