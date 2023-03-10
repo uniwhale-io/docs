@@ -7,6 +7,7 @@
 * [Liquidity Pool](liquidity-pool.md)
 * [Tokenomics](tokenomics.md)
 * [Uniwhale Genesis Pass](uniwhale-genesis-pass.md)
+* [Referral Program](referral-program.md)
 * [Roadmap](roadmap.md)
 * [Social Media](social-media.md)
 * [Terms and Condition](terms-and-condition.md)
