@@ -1,29 +1,35 @@
 # UNW - The Utility Token
 
-UNW is our tradeable and transferrable token. Its holders can stake UNW to participate in the distribution of the value accrued as well as in the token emission. However, UNW is not the governance token. Its holders must convert UNW into esUNW in order to participate in the governance. UNW can be converted into esUNW anytime.
-
 ## Key Summary
 
-#### Token Symbol
+**Token Symbol**
 
 UNW
 
-#### Contract address
+**Contract address**
 
 [0x5b65cd9feb54f1df3d0c60576003344079f8dc06](https://bscscan.com/token/0x5b65cd9feb54f1df3d0c60576003344079f8dc06)
 
-#### Max Supply
+**Max Supply**
 
 100,000,000
 
-#### UNW/BNB LP ([https://pancakeswap.finance/](https://pancakeswap.finance/))
+#### Token Brief
 
-Coming soon
+UNW is our tradeable and transferrable token. Its holders can stake UNW to participate in the distribution of the value accrued as well as in the token emission.&#x20;
 
-#### UNW/THE LP ([https://thena.fi/](https://thena.fi/))
+However, UNW is not the governance token. Its holders must convert UNW into esUNW in order to participate in the governance. UNW can be converted into [esUNW](esunw-the-governance-token.md) anytime.
 
-Coming soon
-
-## How to earn UNW?
+### How to earn UNW?
 
 * Buy on [PancakeSwap](unw-the-utility-token.md#unw-bnb-lp-https-pancakeswap.finance) or [Thena](unw-the-utility-token.md#unw-the-lp-https-thena.fi): coming soon
+
+### UNW Token Pair
+
+**UNW/BNB LP** ([https://pancakeswap.finance/](https://pancakeswap.finance/))
+
+Coming soon
+
+**UNW/THE LP** ([https://thena.fi/](https://thena.fi/))
+
+Coming soon
