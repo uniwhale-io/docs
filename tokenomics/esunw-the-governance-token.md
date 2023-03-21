@@ -2,7 +2,7 @@
 
 ## Key Summary
 
-#### Token symbol
+**Token symbol**
 
 esUNW
 
@@ -10,7 +10,7 @@ esUNW
 
 ****[0x61c07ec9ca5ff18102396b4fff4eb31d7866d5cf](https://bscscan.com/token/0x61c07ec9ca5ff18102396b4fff4eb31d7866d5cf)
 
-### Token Brief
+#### Token Brief
 
 esUNW is our governance token. Only the holders of esUNW can participate in the governance of Uniwhale. It is a non-tradeable and non-transferrable token, that can be staked to participate in the distribution of the value accrued as well as in the token emission.
 
