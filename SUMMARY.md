@@ -9,7 +9,7 @@
   * [ULP - The Liquidity Pool Token](tokenomics/ulp-the-liquidity-pool-token.md)
   * [UNW - The Utility Token](tokenomics/unw-the-utility-token.md)
   * [esUNW - The Governance Token](tokenomics/esunw-the-governance-token.md)
-  * [Revenue Distribution and Emission](tokenomics/revenue-distribution-and-emission.md)
+  * [Revenue Distribution and Emission](tokenomics/platform-revenue-distribution.md)
   * [Token Distribution](tokenomics/token-distribution.md)
   * [Comparison of UNW and esUNW](tokenomics/comparison-of-unw-and-esunw.md)
 * [Uniwhale Genesis Pass](uniwhale-genesis-pass.md)
