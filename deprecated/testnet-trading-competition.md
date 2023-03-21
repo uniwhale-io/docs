@@ -10,7 +10,7 @@
 
 ## Rules: <a href="#b509" id="b509"></a>
 
-* Get your trading funds from the Uniwhale [Testnet Faucet](https://app.gitbook.com/s/0xEle6Jl265gogxiAp8X/) page.
+* Get your trading funds from the Uniwhale [Testnet Faucet](broken-reference) page.
 * No registration or KYC required to participate in the competition. Simply use the [Uniwhale Testnet](https://app.testnet.uniwhale.co/).
 * There will be a number of trading sessions over the two weeks and you can participate in as many as you like.
 * Each trading session lasts 48 hours, with the starting time of each session announced on [Discord](http://discord.gg/Uniwhale).

@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2) (2).png
+cover: ../.gitbook/assets/Uniwhale_Gitbook_Cover_1900x400 (2) (2).png
 coverY: 0
 ---
 
@@ -7,7 +7,7 @@ coverY: 0
 
 The tokenomics of a protocol charts a course toward the decentralization and autonomy of that protocol. Given a common thread of its governance token to bind them, how does an amorphous community weave itself towards a tapestry? Tokenomics is not a series of binary “do or don’t” gates, but of incentives and self-governance as steering mechanisms to guide a community toward maximizing its utility.
 
-In this article, we lay out our tokenomics framework, which builds on many good ideas that we saw over the last few years, including veCurve of Curve protocol and esGMX of GMX protocol.
+Here, we lay out our tokenomics framework, which builds on many good ideas that we saw over the last few years, including veCurve of Curve protocol and esGMX of GMX protocol.
 
 Our community is at the centre of our tokenomics and so we focus on (1) growth of value accrued to our community, (2) fair distribution of the accrued value, and (3) inclusive governance to deliver on the first two focuses.
 
@@ -37,38 +37,8 @@ Uniwhale is a community-driven project, owned by our community. Tokenomics there
 
 ## Three token system <a href="#79ee" id="79ee"></a>
 
-To achieve such inclusive governance to drive value creation and its fair distribution, we introduce a three token system.
-
-## UNW <a href="#427a" id="427a"></a>
-
-UNW is our tradeable and transferrable token. Its holders can stake UNW to participate in the distribution of the value accrued as well as in the token emission. However, UNW is not the governance token. Its holders must convert UNW into esUNW in order to participate in the governance. UNW can be converted into esUNW anytime.
-
-## esUNW <a href="#d62a" id="d62a"></a>
-
-esUNW is our governance token. Only the holders of esUNW can participate in the governance of Uniwhale. It is a non-tradeable and non-transferrable token, that can be staked to participate in the distribution of the value accrued as well as in the token emission. Given its nature, its holders are subject to a higher percentage of the value accrued and the token emission, compared to UNW. The token emission is also in form of esUNW. esUNW holders can convert esUNW into UNW by locking up esUNW over certain period of time, over which esUNW will be converted into UNW linearly. Locked esUNW (for vesting) may be unlocked anytime. Locked esUNW also ceases to be subject to any distribution of the value accrued and the token emission.
-
-## ULP <a href="#e3d6" id="e3d6"></a>
-
-ULP is our liquidity pool token. It is transferrable. Liquidity providers mint ULP when they provide liquidity to Uniwhale. The number of ULP minted is proportional to the amount of liquidity you provide relative to the liquidity balance Uniwhale holds. ULP holders can stake ULP to participate in the distribution of value accrued and the token emission. ULP can be redeemed any time in stablecoins, subject to the minimum collateral requirement rule. The amount of stablecoins ULP holders receive upon redemption is proportional to the number of ULP tokens burnt relative to its outstanding supply.
-
-## Token supply distribution <a href="#d577" id="d577"></a>
-
-The maximum supply of UNW (and esUNW) is 100 million.
-
-* Out of the maximum supply, 40 million (i.e. 40%) is allocated to emission in form of esUNW.
-* 20 million is allocated to bootstrap the initial liquidity at the reserve fund.
-* 10 million is allocated to the token airdrops to early users of Uniwhale, [Uniwhale Genesis Pass](https://medium.com/uniwhale/g-e-n-e-s-i-s-p-a-s-s-uniwhale-f63e77344cf9) holders and targeted DeFi users.
-* Further 20 million is allocated to the community development (including marketing, partnership and contributors). This 30 million may be subject to milestone-based vesting.
-* Finally, 10 million is allocated to provide initial liquidity of UNW as and when it is listed on other trading exchanges.
+To achieve such inclusive governance to drive value creation and its fair distribution, we introduce a three token system, which consists of [ULP](ulp-the-liquidity-pool-token.md), [UNW](unw-the-utility-token.md) and [esUNW](esunw-the-governance-token.md).
 
 ## Reserve fund <a href="#9548" id="9548"></a>
 
 Black swan events can happen and do happen. So it is important that we as a community are well prepared for these. Reserve fund acts as a line of defence against such events and helps ensure our community grows in a sustainable manner. Reserve fund may also be used to strengthen the security of our community, for example, paying for the security audit or bug bounties. Initially, the reserve fund liquidity is bootstrapped by the 20 million allocation from the token supply. A portion of the value accrued will also be distributed to the reserve fund. Any and all creator fees from our NFTs including [Uniwhale Genesis Pass](https://medium.com/uniwhale/g-e-n-e-s-i-s-p-a-s-s-uniwhale-f63e77344cf9) will also contribute to the reserve fund.
-
-## Closing remarks <a href="#19bb" id="19bb"></a>
-
-Decentralization is our greatest strength, as it allows us to create an open and adaptive protocol that can evolve in entirely new ways. That decentralization begins with our tokenomics.
-
-In this article, we laid out our tokenomics framework, focusing on (1) growth of value accrued to our community, (2) fair distribution of the accrued value, and (3) inclusive governance to deliver on the first two focuses.
-
-Saying is cheap and doing is hard. And we have lots of doing ahead of us. And we call for all our community to participate in this evolving conversation and grow together!
