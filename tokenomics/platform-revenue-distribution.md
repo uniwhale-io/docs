@@ -20,3 +20,13 @@ All emissions are in esUNW, with a few exceptions including rewards provided to 
 | Staked ULP     | 8,340 esUNW              | 15%           |
 | Staked esUNW   | 8,340 esUNW              | 15%           |
 | Staked UNW     | 2,780 esUNW              | 5%            |
+
+#### APR
+
+The formula for the Annualised Percentage Return ("APR") is as follows:
+
+`APR = 7-day average of (APR for block)`
+
+`APR for block = Total payout for block x no. of blocks per year / (total staked value for block in current USD)`
+
+`Total payout for block = (total platform revenue distribution for block in current USD + total emission for block in current USD)`
