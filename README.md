@@ -4,10 +4,9 @@
 
 
 
-Uniwhale is an oracle-based decentralized on-chain perpetual trading exchange where <mark style="color:green;"></mark>&#x20;
+Uniwhale is an oracle-based perpetual DEX where you can trade, with up to 200x leverage, BTC, ETH, and many mainstream crypto assets, directly from your wallet.
 
-* You can trade, with up to 200x leverage, BTC, ETH, and many mainstream crypto assets, directly from your wallet.
-* You can provide liquidity with stablecoins like USDT, USDC, BUSD, and more, to earn real yield from market-making and leverage trading.
+As a liquidity provider, you can provide liquidity with stablecoins like USDT, USDC, BUSD, and more, to earn real yield from market-making and leverage trading.
 
 Based on objective price oracles and single-sided liquidity, Uniwhale aims to deliver the best trading experience for traders with zero credit risk and minimize impermanent loss for liquidity providers.
 
