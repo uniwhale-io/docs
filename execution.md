@@ -128,7 +128,7 @@ Outstanding positions are subject to liquidation if the relevant liquidation pri
 
 Outstanding positions eligible for liquidation are liquidated at the earliest chance, to protect the users and the platform.
 
-Liquidation closes the relevant position. It is subject to a liquidation penalty. In order to avoid the liquidation penalty, traders are advised to close a position before liquidation is triggered.
+Liquidation closes the relevant position. It is subject to a liquidation penalty (currently 10% of the liquidation). In order to avoid the liquidation penalty, traders are advised to close a position before liquidation is triggered.
 
 ## Risk management
 
@@ -138,6 +138,7 @@ Trading at uniwhale is subject to the following constraints:
 * The number of open positions for each pair a trader can carry is capped.
 * The number of open positions across pairs a trade can carry is capped.
 * The total margin across pairs a trader can carry is capped.
+* Each pair is subject to the maximum total long and short positions.
 * There is a minimum position (after leverage) required.
 * A position is subject to the maximum percentage PnL, determined as a function of your margin and leverage (see [Maximum Percentage PnL](execution.md#maximum-percentage-pnl)).
 * The maximum possible PnL of all open positions (long and short) across the platform cannot exceed the prevailing market value of Liquidity Pool.
