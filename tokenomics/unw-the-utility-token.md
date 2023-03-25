@@ -22,7 +22,8 @@ However, UNW is not the governance token. Its holders must convert UNW into esUN
 
 ### How to earn UNW?
 
-* Buy on [PancakeSwap](unw-the-utility-token.md#unw-bnb-lp-https-pancakeswap.finance) or [Thena](unw-the-utility-token.md#unw-the-lp-https-thena.fi): coming soon
+* Buy on [PancakeSwap](https://pancakeswap.finance/swap?inputCurrency=BNB\&outputCurrency=0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06)
+* Buy on [Thena](https://thena.fi/swap?inputCurrency=BNB\&outputCurrency=0x5b65cd9feb54f1df3d0c60576003344079f8dc06)
 
 ### UNW Token Pair
 
