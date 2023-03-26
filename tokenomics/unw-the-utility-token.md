@@ -27,10 +27,5 @@ However, UNW is not the governance token. Its holders must convert UNW into esUN
 
 ### UNW Token Pair
 
-**UNW/BNB LP**
-
-[https://pancakeswap.finance/add/0x5b65cd9feb54f1df3d0c60576003344079f8dc06?chain=bsc](https://pancakeswap.finance/add/0x5b65cd9feb54f1df3d0c60576003344079f8dc06?chain=bsc)
-
-**UNW/THE LP**
-
-[https://thena.fi/liquidity/manage/0xd714206a7D63F5a2d613064815995E9CC7061988](https://thena.fi/liquidity/manage/0xd714206a7D63F5a2d613064815995E9CC7061988)
+* Provide [UNW/BNB](https://pancakeswap.finance/add/0x5b65cd9feb54f1df3d0c60576003344079f8dc06?chain=bsc) Liquidity on PancakeSwap
+* Provide [UNW/THE](https://thena.fi/liquidity/manage/0xd714206a7D63F5a2d613064815995E9CC7061988) Liquidity on Thena
