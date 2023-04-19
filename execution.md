@@ -22,13 +22,13 @@ You can add and remove margins to outstanding positions. When margins are update
 
 ## Order type supported
 
-You can trade either Market Order or Market Limit Order. Both order types can also have either Stop Loss, Profit Target, or both.
+You can trade either Market Order or (coming soon) Market Limit Order. Both order types can also have either Stop Loss, Profit Target, or both.
 
 ### Market Order
 
 Market orders are filled at the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
-### Market Limit Order
+### (coming soon) Market Limit Order
 
 Market limit orders are filled when the limit prices match the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
@@ -39,6 +39,12 @@ Stop Loss price can be added to Market Order or Market Limit Order, which will t
 ### Profit Target
 
 Profit Target price can be added to the Market Order or Market Limit Order, which will trigger an automatic close of the position if the condition is satisfied.
+
+### Calculation and execution of Stop Loss and Profit Target
+
+Every position is subject to [Funding and Rollover Fee](execution.md#funding-and-rollover-fee). Stop Loss and Profit Target prices of a position are dynamically adjusted based on the relevant Funding and Rollover Fee and executed on the adjusted basis. This ensures that the execution of the Stop Loss and Profit Target is in line with the PnL expectation of the trader.&#x20;
+
+So for example, let's assume your position is a buy position with the entry price at $1,000 and you entered a Stop Loss at $800 (i.e. the target maximum loss is 20% before leverage). If the Funding and Rollover Fee is zero, then the Stop Loss will be triggered if Oracle Price is $800. If, however, the accumulated Funding and Rollover Fee is $100, then the Stop Loss will be triggered if Oracle Price is $900 to ensure the target maximum loss expectation (of 20% before leverage) is met.
 
 ## Fee and Market Impact
 
@@ -88,6 +94,10 @@ Rollover Fee is a fixed fee charged per block-height on your margin. Because it 
 
 `Base Fee Per Block` is different for each crypto asset and is updated periodically.
 
+### Impact of Funding and Rollover Fee to Stop Loss, Profit Target and Liquidation
+
+See [Calculation and execution of Stop Loss and Profit Target](execution.md#calculation-and-execution-of-stop-loss-and-profit-target).
+
 ## Opening a position
 
 <figure><img src=".gitbook/assets/Screenshot 2023-02-05 at 3.56.41 PM.png" alt=""><figcaption></figcaption></figure>
@@ -98,7 +108,7 @@ Opening a position will transfer the required margin to a dedicated on-chain con
 
 To open a position, you need to enter the margin you want to put up together with the leverage you are looking for.
 
-You can post margin in many stablecoins (coming soon), which will then be automatically swapped into USDT using a third-party DEX (e.g. PancakeSwap), with the maximum amount of the stablecoin to meet the USDT margin requirement specified by you.
+(coming soon) You can post margin in many stablecoins, which will then be automatically swapped into USDT using a third-party DEX (e.g. PancakeSwap), with the maximum amount of the stablecoin to meet the USDT margin requirement specified by you.
 
 ### Tolerance setting
 
@@ -116,7 +126,7 @@ Closing a position will calculate the PnL based on the best price offered by the
 
 You can not lose more than the margin posted.&#x20;
 
-### Limit Price or Market Price (coming soon)
+### (coming soon) Limit Price or Market Price
 
 Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
 
@@ -125,6 +135,8 @@ To mitigate this risk, you can specify Limit Price when closing a position, so t
 ## Liquidation
 
 Outstanding positions are subject to liquidation if the relevant liquidation price is breached according to the price oracle.
+
+Liquidation price is adjusted dynamically based on Funding and Rollover Fee in the [same manner as the Stop Loss and Profit Target](execution.md#calculation-and-execution-of-stop-loss-and-profit-target).
 
 Outstanding positions eligible for liquidation are liquidated at the earliest chance, to protect the users and the platform.
 
