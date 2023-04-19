@@ -4,11 +4,11 @@
 
 Subject to governance, 100% of the revenue generated on the platform may be distributed to our community. The current distribution percentage is as follows.
 
-|              | % of Distribution |
-| ------------ | ----------------- |
-| Staked ULP   | 50%               |
-| Staked esUNW | 40%               |
-| Reserve Fund | 10%               |
+|                                                                                                                                              | % of Distribution |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Staked ULP ([Reinvested](https://snapshot.org/#/uniwhaleex.eth/proposal/0xc6feb05327d484ee9f6917be3ef77a96d9a234d53c76b88106886d2b2d03a47e)) | 50%               |
+| Staked esUNW                                                                                                                                 | 40%               |
+| Reserve Fund                                                                                                                                 | 10%               |
 
 ### Token Emission
 
