@@ -25,6 +25,7 @@ UNW is not the governance token. Its holders must convert UNW into esUNW in orde
 * Buy on [Uniswap V3](https://app.uniswap.org/#/swap?inputCurrency=0x55d398326f99059ff775485246999027b3197955\&outputCurrency=0x5b65cd9feb54f1df3d0c60576003344079f8dc06\&exactAmount=1)
 * Buy on [PancakeSwap V2](https://pancakeswap.finance/swap?inputCurrency=BNB\&outputCurrency=0x5b65cd9feb54F1Df3D0C60576003344079f8Dc06)
 * Buy on [Thena V2](https://thena.fi/swap?inputCurrency=BNB\&outputCurrency=0x5b65cd9feb54f1df3d0c60576003344079f8dc06)
+* Buy on [MEXC](https://www.mexc.com/exchange/UNW\_USDT)
 
 ### UNW Token Pair
 
