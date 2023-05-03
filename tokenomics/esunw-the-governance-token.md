@@ -23,4 +23,4 @@ Locked esUNW also ceases to be subject to any distribution of the value accrued 
 * Become [Uniwhale Liquidity Provider](https://app.uniwhale.co/liquidity)
 * Trade and Earn
 * Stake esUNW or UNW
-* Uniwhale Referral Program: coming soon
+* Uniwhale [Referral](https://app.uniwhale.co/referral) Program
