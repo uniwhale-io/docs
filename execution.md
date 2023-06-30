@@ -22,13 +22,13 @@ You can add and remove margins to outstanding positions. When margins are update
 
 ## Order type supported
 
-You can trade either Market Order or (coming soon) Market Limit Order. Both order types can also have either Stop Loss, Profit Target, or both.
+You can trade either Market Order or Market Limit Order. Both order types can also have either Stop Loss, Profit Target, or both.
 
 ### Market Order
 
 Market orders are filled at the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
-### (coming soon) Market Limit Order
+### Market Limit Order
 
 Market limit orders are filled when the limit prices match the best price offered by the [Liquidity Pool](liquidity-pool.md).
 
@@ -126,7 +126,7 @@ Closing a position will calculate the PnL based on the best price offered by the
 
 You can not lose more than the margin posted.&#x20;
 
-### (coming soon) Limit Price or Market Price
+### Limit Price or Market Price
 
 Your execution price is deterministically calculated (see [Fee and Market Impact](execution.md#fee-and-market-impact)) based on the latest oracle price, but, especially during a fast moving market, there can be a gap between the screen price and the actual execution price (primarily due to changes in oracle price and outstanding positions on the platform).&#x20;
 

@@ -5,6 +5,8 @@
 * [Unique Oracle Design](unique-oracle-design.md)
 * [Trading](execution.md)
 * [Liquidity Pool](liquidity-pool.md)
+* [Security](security/README.md)
+  * [Early Warning and TimeLock](security/early-warning-and-timelock.md)
 * [Tokenomics](tokenomics/README.md)
   * [ULP - The Liquidity Pool Token](tokenomics/ulp-the-liquidity-pool-token.md)
   * [UNW - The Utility Token](tokenomics/unw-the-utility-token.md)

@@ -20,8 +20,8 @@ Uniwhale uses [Pyth Network](https://pyth.network) for its oracle prices. Pyth N
 
 Pyth Network is different from many other oracles in that it uses ["on-demand" price update model](https://docs.pyth.network/consume-data/on-demand), whose advantages over the more traditional "push" model, among many, we like are:&#x20;
 
-* Gas efficiency: **** On-chain prices are only updated when they are needed.
-* High update frequency: **** Pyth Network price feeds update once per second, which is faster than the blocktime of most blockchains.
+* Gas efficiency: On-chain prices are only updated when they are needed.
+* High update frequency: Pyth Network price feeds update once per second, which is faster than the blocktime of most blockchains.
 * Low latency: Every transaction can use a recent off-chain price, instead of relying on the last on-chain update pushed by the oracle itself.
 * Reliable in volatile conditions: On-demand model does not fail to land price updates in volatile market conditions, because price updates are incorporated into the valuable transactions themselves (and therefore can compete for bandwidth).
 
