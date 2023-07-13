@@ -5,6 +5,19 @@ coverY: 0
 
 # Tokenomics
 
+_Please note we are_ [_in the middle of upgrading Tokenomics_](https://medium.com/uniwhale/tokenomics-v2-sets-sail-a9ef688c84c8) _after UIP-6 was approved by our community._&#x20;
+
+_UIP-6 addresses some of the key concerns our community has on the existing tokenomics and look to achieve a more coherent tokenomics with the following goals:_
+
+* _Protocol revenue directly drives both esUNW and UNW._
+* _UNW and esUNW complement and create a positive feedback loop._
+* _Emission is used more effectively to drive revenue higher._
+
+_creating the following Flywheel:_
+
+<figure><img src="https://cdn-images-1.medium.com/max/1600/0*Me4cfNYJOJ6jaECK" alt=""><figcaption></figcaption></figure>
+
+\
 The tokenomics of a protocol charts a course toward the decentralization and autonomy of that protocol. Given a common thread of its governance token to bind them, how does an amorphous community weave itself towards a tapestry? Tokenomics is not a series of binary “do or don’t” gates, but of incentives and self-governance as steering mechanisms to guide a community toward maximizing its utility.
 
 Here, we lay out our tokenomics framework, which builds on many good ideas that we saw over the last few years, including veCurve of Curve protocol and esGMX of GMX protocol.
