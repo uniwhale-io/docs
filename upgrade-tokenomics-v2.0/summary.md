@@ -2,12 +2,29 @@
 
 The Proposal calls for the four proposals to be implemented with the following Fee Distribution and Emission.
 
-<div align="left">
+|               | Fee Distribution | UNW Emission                             |
+| ------------- | ---------------- | ---------------------------------------- |
+| ULP           | 50%              | <p>20% <br>(Hyper Event with Ladder)</p> |
+| UNW           | -                | 10%                                      |
+| esUNW-v2      | -                | 10%                                      |
+| Reserve Fund  | 10%              | -                                        |
+| Trader        | -                | <p>60% <br>(Hyper Event with Ladder)</p> |
+| Fee Vault     | 40%              | -                                        |
+| Total         | 100%             | 100%                                     |
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-14 at 8.57.18 AM.png" alt=""><figcaption></figcaption></figure>
 
-</div>
 
 For your reference, the above compares to the current distribution below:
 
-![](<../.gitbook/assets/Screenshot 2023-07-14 at 8.58.20 AM.png>)
+
+
+|              | Fee Distribution | esUNW Emission |
+| ------------ | ---------------- | -------------- |
+| ULP          | 50%              | 15%            |
+| UNW          | -                | 5%             |
+| esUNW        | 40%              | 15%            |
+| Reserve Fund | 10%              | -              |
+| Traders      | -                | 65%            |
+| Treasury     | -                | -              |
+| Total        | 100%             | 100%           |
+
