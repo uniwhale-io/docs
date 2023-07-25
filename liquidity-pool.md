@@ -67,7 +67,7 @@ The formula for the Annualised Percentage Return ("APR") is as follows:
 
 ### Removing liquidity
 
-You can remove liquidity from Uniwhale Exchange at any time either in USDT or in other stablecoins (coming soon). If in other stablecoins, the relevant BUSD is swapped into the stablecoin using a third-party DEX (e.g. Uniswap), with the minimum amount of the stablecoin (i.e. maximum slippage) specified by you.
+You can remove liquidity from Uniwhale Exchange at any time either in USDT or in other stablecoins (coming soon). If in other stablecoins, the relevant USDT is swapped into the stablecoin using a third-party DEX (e.g. Uniswap), with the minimum amount of the stablecoin (i.e. maximum slippage) specified by you.
 
 Because the Liquidity Pool balance must be sufficiently collateralized to meet all its obligations (see [Risk management](execution.md#risk-management)), the maximum liquidity you can remove at any time is restricted to the excess balance available (i.e. the difference between the Liquidity Pool balance and the collateral requirement).
 
